@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" href="http://www.socioambiental.org/sites/blog.socioambiental.org/files/favicon.ico" />
+    <title>ISA - Observatorio Xingu - teste Leaflet</title>
+    <link rel="stylesheet" href="/static/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="/static/leaflet/leaflet.draw.css" />
+    <script src="/static/leaflet/leaflet.js"></script>
+    <script src="/static/leaflet/esri-leaflet.js"></script>
+    <script src="/static/leaflet/leaflet-heat.js"></script>
+    <script src="/static/leaflet/esri-leaflet-heatmap-feature-layer-src.js"></script>
+    <script src="/static/leaflet/leaflet.draw.js"></script>
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="lib/leaflet/leaflet.ie.css" />
+      <link rel="stylesheet" href="leaflet.draw.ie.css" />
+    <![endif]-->
+    <script src="http://maps.google.com/maps/api/js?v=3.2&sensor=false"></script>
+    <script src="http://matchingnotes.com/javascripts/leaflet-google.js"></script>
+
+  <body>
+     <img src="/static/bitmap/logo_isa_urucum.png" width=300>
+    <h2>Test desenho sobre mosaico Google Earth Engine com Leaflet</h2>
+
+    <div id="map" style="width: 900px; height: 600px;"></div>
+  <script>
+  
+  var map = L.map('map', {drawControl: true}).setView([-3.210126, -52.207450], 10);
+  
+  var TI_serv_ov=L.esri.featureLayer({
+    url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/monitoramento/tis/MapServer/1',
+    style: {color:'brown'}
+  });
+  var UC_serv_ov=L.esri.featureLayer({
+    url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/raisg/raisg_anps/MapServer/2',
+//    url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/monitoramento/ucs/MapServer/1',
+    style: {color:'green'}
+  });
+  icone_fogo=L.icon({
+      iconUrl: '/static/bitmap/Fire.png',
+      iconSize: [31, 27],
+      iconAnchor: [13.5, 17.5],
+      popupAnchor: [0, -11],
+  });
+  var FOCOS_serv_ov=L.esri.featureLayer({
+    url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/comuns/focos/MapServer/0',
+    pointToLayer: function (geojson, latlng) {
+      return L.marker(latlng, {icon: icone_fogo});}
+  });
+  var FOCOS_serv_ov_heatmap= L.esri.heatmapFeatureLayer({
+    url: 'http://gisserver.socioambiental.org:6080/arcgis/rest/services/comuns/focos/MapServer/0',
+    radius: 12,
+    max: 0.000001,
+    gradient: {
+      0.1: '#ffffb2',
+      0.4: '#fd8d3c',
+      0.6: '#fd8d3c',
+      0.8: '#f03b20',
+      1: '#bd0026'
+    }
+  })
+
+
+  var firms48_sev_ov = L.tileLayer.wms("https://firms.modaps.eosdis.nasa.gov/wms/?SERVICE=WMS", {
+    layers: 'fires48',
+    format: 'image/png',
+    transparent: true,
+    attribution: "Fire data @2015 FIRMS"
+});
+
+  var baseGoogle = new L.Google('ROADMAP');
+  var baseESRI=L.esri.basemapLayer('Topographic');
+  var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+  var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+  var osm = new L.TileLayer(osmUrl, {minZoom: 2, maxZoom: 18, attribution: osmAttrib});   
+
+
+  var baseUrl = 'https://earthengine.googleapis.com/map';
+  var url = [baseUrl, '{{ mapid }}', "{z}", "{x}", "{y}"].join('/');
+  url += '?token=' + '{{ token }}';
+  var baseEE= L.tileLayer(url);
+
+  
+  osm.addTo(map);
+  var background={"base Google": baseGoogle,"topo ESRI": baseESRI,"OpenStreetMap": osm,"EE 2015":baseEE};
+  var camadas_raisg={
+    "Terras Indígenas":TI_serv_ov,
+    "Unidades de Conservação":UC_serv_ov,
+    "Focos de Calor":FOCOS_serv_ov,
+    "Focos de Calor HM":FOCOS_serv_ov_heatmap,    
+    "Focos FIRMS 48h": firms48_sev_ov
+    };
+  L.control.layers(background,camadas_raisg).addTo(map);
+
+  // Initialise the FeatureGroup to store editable layers
+  var drawnItems = new L.FeatureGroup();
+  map.addLayer(drawnItems);
+
+  // Initialise the draw control and pass it the FeatureGroup of editable layers
+  var drawControl = new L.Control.Draw({
+    edit: {
+        featureGroup: drawnItems
+    }
+  });
+//  map.addControl(drawControl);
+  map.on('draw:created', function (e) {
+    var type = e.layerType,
+        layer = e.layer;
+    layer.bindPopup('Parabens, você criou um '+type+'!!');
+    drawnItems.addLayer(layer);
+});
+
+
+    </script>
+  </body>
+</html>

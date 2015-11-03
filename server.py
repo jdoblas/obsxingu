@@ -1,0 +1,82 @@
+#!/usr/bin/env python
+"""Mosaicking routine."""
+
+import os
+
+import config
+import ee
+import jinja2
+import webapp2
+import datetime
+import maskingTools
+
+cloudThresh=0.15
+zShadowThresh=-0.7
+
+jinja_environment = jinja2.Environment(
+    loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
+
+
+class MainPage(webapp2.RequestHandler):
+
+  def get(self):                             # pylint: disable=g-bad-name
+    """Request an image from Earth Engine and render it to a web page."""
+    ee.Initialize(config.EE_CREDENTIALS)
+
+    start = datetime.date(2015,1,1).isoformat()
+    end = datetime.date(2015,12,1).isoformat()
+
+    # A mapping from a common name to the sensor-specific bands.
+    LC8_BANDS = ['B2',   'B3',    'B4',  'B5',  'B6',    'B7',    'B10']
+    STD_NAMES = ['blue', 'green', 'red', 'nir', 'swir1', 'swir2', 'temp']
+
+
+    area1=ee.Geometry.Polygon(
+                [[[-54.95086669921875, -4.387490398371425],
+                  [-54.7833251953125, -4.852890820110559],
+                  [-53.9813232421875, -4.598327203100916],
+                  [-54.1241455078125, -4.099890260666389]]])
+    #Compute a cloud score.  This expects the input image to have the common
+    #band names: ["red", "blue", etc], so it can work across sensors.
+
+    def addCloudThreshold (img):
+      return img.addBands(ee.Image(cloudThresh).select([0],['cloudThresh']))
+    def addShadowThreshold (img):
+      return img.addBands(ee.Image(zShadowThresh).select([0],['zShadowThresh']))
+
+    #Filter the TOA collection to a time-range and area, add the cloud threshold band and filter clouds
+    collection = ee.ImageCollection('LC8_L1T_TOA').select(LC8_BANDS, STD_NAMES).\
+      filterDate(start,end).\
+      map(addCloudThreshold).\
+      map(addShadowThreshold).\
+      map(maskingTools.maskCloudsAndSuch)
+
+    collection_masked_shadows=maskingTools.maskShadows(collection)
+    #collection_masked_shadows=collection
+
+ 
+    # Display the image normally.
+    #mapid=collection.qualityMosaic('cloudscore').getMapId({'bands': ['B6', 'B5', 'B4'], 'max': 1.0, 'gamma': 1.0})
+    #compute median value (for mosaics)
+    img1=collection_masked_shadows.median().select(['swir1','nir','red'])
+    #compute last value (for monitoring)
+    #col_sorted = collection_masked_shadows.select(['swir1','nir','red']).sort('system:time_start', False)    #Order adquisition by date
+    #img1= col_sorted.mosaic()
+  
+    #img1=collection.qualityMosaic('cloudscore').select(['swir1','nir','red'])
+    #mapid=img1.getMapId({'bands': ['swir1', 'nir', 'red'], 'max': 1.0, 'gamma': 1.0})
+    mapid=img1.getMapId({'min':0.0,'max': 0.5})
+    debugtext=''
+    
+    # These could be put directly into template.render, but it
+    # helps make the script more readable to pull them out here, especially
+    # if this is expanded to include more variables.
+    template_values = {
+        'mapid': mapid['mapid'],
+        'token': mapid['token'],
+        'debugtext': debugtext
+    }
+    template = jinja_environment.get_template('index.html')
+    self.response.out.write(template.render(template_values))
+
+app = webapp2.WSGIApplication([('/', MainPage)], debug=True)
