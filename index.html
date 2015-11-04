@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="shortcut icon" href="http://www.socioambiental.org/sites/blog.socioambiental.org/files/favicon.ico" />
-    <title>ISA - Observatorio Xingu - teste Leaflet</title>
+    <title>Observatório Xingu | Instituto Socioambiental</title>
     <link rel="stylesheet" href="/static/leaflet/leaflet.css" />
     <link rel="stylesheet" href="/static/leaflet/leaflet.draw.css" />
     <script src="/static/leaflet/leaflet.js"></script>
@@ -29,93 +29,108 @@
        <img src="/static/bitmap/logo_isa_urucum.png" width=300>
     </div>   
     <script>
-    
-    var map = L.map('map', {drawControl: true}).setView([-12.8, -53.12], 10);
-    
-    var TI_serv_ov=L.esri.featureLayer({
-      url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/monitoramento/tis/MapServer/1',
-      style: {color:'brown'}
-    });
-    var UC_serv_ov=L.esri.featureLayer({
-      url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/raisg/raisg_anps/MapServer/2',
-  //    url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/monitoramento/ucs/MapServer/1',
-      style: {color:'green'}
-    });
-    icone_fogo=L.icon({
-        iconUrl: '/static/bitmap/Fire.png',
-        iconSize: [31, 27],
-        iconAnchor: [13.5, 17.5],
-        popupAnchor: [0, -11],
-    });
-    var FOCOS_serv_ov=L.esri.featureLayer({
-      url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/comuns/focos/MapServer/0',
-      pointToLayer: function (geojson, latlng) {
-        return L.marker(latlng, {icon: icone_fogo});}
-    });
-    var FOCOS_serv_ov_heatmap= L.esri.heatmapFeatureLayer({
-      url: 'http://gisserver.socioambiental.org:6080/arcgis/rest/services/comuns/focos/MapServer/0',
-      radius: 12,
-      max: 0.000001,
-      gradient: {
-        0.1: '#ffffb2',
-        0.4: '#fd8d3c',
-        0.6: '#fd8d3c',
-        0.8: '#f03b20',
-        1: '#bd0026'
+      var map = L.map('map', {drawControl: true}).setView([-12.8, -53.12], 10);
+
+      var TI_serv_ov=L.esri.featureLayer({
+          url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/monitoramento/tis/MapServer/1',
+          style: {color:'brown'}
+        });
+      var UC_serv_ov=L.esri.featureLayer({
+          url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/raisg/raisg_anps/MapServer/2',
+      //    url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/monitoramento/ucs/MapServer/1',
+          style: {color:'green'}
+        });
+        icone_fogo=L.icon({
+            iconUrl: '/static/bitmap/Fire.png',
+            iconSize: [31, 27],
+            iconAnchor: [13.5, 17.5],
+            popupAnchor: [0, -11],
+        });
+      var FOCOS_serv_ov=L.esri.featureLayer({
+          url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/comuns/focos/MapServer/0',
+          pointToLayer: function (geojson, latlng) {
+            return L.marker(latlng, {icon: icone_fogo});}
+        });
+      var FOCOS_serv_ov_heatmap= L.esri.heatmapFeatureLayer({
+          url: 'http://gisserver.socioambiental.org:6080/arcgis/rest/services/comuns/focos/MapServer/0',
+          radius: 12,
+          max: 0.000001,
+          gradient: {
+            0.1: '#ffffb2',
+            0.4: '#fd8d3c',
+            0.6: '#fd8d3c',
+            0.8: '#f03b20',
+            1: '#bd0026'
+          }
+        })
+
+
+      var firms48_sev_ov = L.tileLayer.wms("https://firms.modaps.eosdis.nasa.gov/wms/?SERVICE=WMS", {
+          layers: 'fires48',
+          format: 'image/png',
+          transparent: true,
+          attribution: "Fire data @2015 FIRMS"
+      });
+
+      var baseGoogle = new L.Google('ROADMAP');
+      var baseESRI=L.esri.basemapLayer('Topographic');
+      var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+      var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+      var osm = new L.TileLayer(osmUrl, {minZoom: 2, maxZoom: 18, attribution: osmAttrib});   
+
+      // define general backgrounds
+      var background={
+          "base Google": baseGoogle,
+          "topo ESRI": baseESRI,
+          "OpenStreetMap": osm}
+        
+      // define Earth Engine layers, as configured in server.py
+      var anos={{ anos }};
+      var mapids={{ mapids }};
+      var tokens={{ tokens }};
+
+      var baseUrl = 'https://earthengine.googleapis.com/map';
+      for (i=0;i<anos.length;i++){
+        ano=anos[i];
+        var url = [baseUrl, mapids[i], "{z}", "{x}", "{y}"].join('/');
+        url += '?token=' + tokens[i];
+        var baseEE=L.tileLayer(url);
+        var nome_camada='Mosaico EE '+ano
+        background[nome_camada]=baseEE;
       }
-    })
+      // define feature layers
+      var camadas_raisg={
+        "Terras Indígenas":TI_serv_ov,
+        "Unidades de Conservação":UC_serv_ov,
+        "Focos de Calor":FOCOS_serv_ov,
+        "Focos de Calor HM":FOCOS_serv_ov_heatmap,    
+        "Focos FIRMS 48h": firms48_sev_ov
+        };
+
+      osm.addTo(map);
+      L.control.layers(background,camadas_raisg).addTo(map);
+
+      //let's add a little scale so no cartographer would be upset
+      L.control.scale({'position':'bottomright','metric':true,'imperial':false}).addTo(map);
+      // Initialise the FeatureGroup to store editable layers
+      var drawnItems = new L.FeatureGroup();
+      map.addLayer(drawnItems);
+
+      // Initialise the draw control and pass it the FeatureGroup of editable layers
+      var drawControl = new L.Control.Draw({
+        edit: {
+            featureGroup: drawnItems
+        }
+      });
+      //  map.addControl(drawControl);
+      map.on('draw:created', function (e) {
+        var type = e.layerType,
+            layer = e.layer;
+        layer.bindPopup('Parabens, você criou um '+type+'!!');
+        drawnItems.addLayer(layer);
+      });
 
 
-    var firms48_sev_ov = L.tileLayer.wms("https://firms.modaps.eosdis.nasa.gov/wms/?SERVICE=WMS", {
-      layers: 'fires48',
-      format: 'image/png',
-      transparent: true,
-      attribution: "Fire data @2015 FIRMS"
-  });
-
-    var baseGoogle = new L.Google('ROADMAP');
-    var baseESRI=L.esri.basemapLayer('Topographic');
-    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-    var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
-    var osm = new L.TileLayer(osmUrl, {minZoom: 2, maxZoom: 18, attribution: osmAttrib});   
-
-
-    var baseUrl = 'https://earthengine.googleapis.com/map';
-    var url = [baseUrl, '{{ mapid }}', "{z}", "{x}", "{y}"].join('/');
-    url += '?token=' + '{{ token }}';
-    var baseEE= L.tileLayer(url);
-
-    
-    osm.addTo(map);
-    var background={"base Google": baseGoogle,"topo ESRI": baseESRI,"OpenStreetMap": osm,"EE 2015":baseEE};
-    var camadas_raisg={
-      "Terras Indígenas":TI_serv_ov,
-      "Unidades de Conservação":UC_serv_ov,
-      "Focos de Calor":FOCOS_serv_ov,
-      "Focos de Calor HM":FOCOS_serv_ov_heatmap,    
-      "Focos FIRMS 48h": firms48_sev_ov
-      };
-    L.control.layers(background,camadas_raisg).addTo(map);
-
-    // Initialise the FeatureGroup to store editable layers
-    var drawnItems = new L.FeatureGroup();
-    map.addLayer(drawnItems);
-
-    // Initialise the draw control and pass it the FeatureGroup of editable layers
-    var drawControl = new L.Control.Draw({
-      edit: {
-          featureGroup: drawnItems
-      }
-    });
-  //  map.addControl(drawControl);
-    map.on('draw:created', function (e) {
-      var type = e.layerType,
-          layer = e.layer;
-      layer.bindPopup('Parabens, você criou um '+type+'!!');
-      drawnItems.addLayer(layer);
-  });
-
-
-    </script>
+</script>
   </body>
 </html>
