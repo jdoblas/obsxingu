@@ -32,7 +32,7 @@ def maskCloudsAndSuch(img):
 def maskShadows(col):
   import ee
   #RSAC_Temporal_Dark_Outlier_Mask(TDOM) by Carson Stam
-  shadowSumBands=['swir1','swir2']
+  shadowSumBands=['red','swir1','swir2']
   def addShadowSum(img):
     return img.addBands(img.select(shadowSumBands).reduce(ee.Reducer.sum()).select([0],['shadowSum']))
   def zShadowMask(img,meanShadowDark,stdShadowDark):

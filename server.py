@@ -12,7 +12,7 @@ import maskingTools
 
 anos=[2013,2014,2015]
 cloudThresh=0.15
-zShadowThresh=-0.7
+zShadowThresh=-0.5
   
 jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
