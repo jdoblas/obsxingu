@@ -5,11 +5,17 @@
     <title>Observatório Xingu | Instituto Socioambiental</title>
     <link rel="stylesheet" href="/static/leaflet/leaflet.css" />
     <link rel="stylesheet" href="/static/leaflet/leaflet.draw.css" />
+    <link rel="stylesheet" href="/static/leaflet/leaflet.groupedlayercontrol.css" />
+    <link rel="stylesheet" href="/static/leaflet/L.Control.MousePosition.css" />
     <script src="/static/leaflet/leaflet.js"></script>
     <script src="/static/leaflet/esri-leaflet.js"></script>
     <script src="/static/leaflet/leaflet-heat.js"></script>
     <script src="/static/leaflet/esri-leaflet-heatmap-feature-layer-src.js"></script>
+    <script src="/static/leaflet/leaflet.groupedlayercontrol.js"></script>
     <script src="/static/leaflet/leaflet.draw.js"></script>
+    <script src="/static/leaflet/L.Control.MousePosition.js"></script>
+    <script src="/static/js/getQueryVariable.js"></script>
+
     <!--[if lte IE 8]>
       <link rel="stylesheet" href="lib/leaflet/leaflet.ie.css" />
       <link rel="stylesheet" href="leaflet.draw.ie.css" />
@@ -29,7 +35,14 @@
        <img src="/static/bitmap/logo_isa_urucum.png" width=300>
     </div>   
     <script>
-      var map = L.map('map', {drawControl: true}).setView([-12.8, -53.12], 10);
+      lat=getQueryVariable('lat');
+      lng=getQueryVariable('long');
+      zoom=getQueryVariable('zoom');
+      if (lat=='') {lat=-12.8}
+      if (lng=='') {lng=-53.12}
+      if (zoom=='') {zoom=10}
+
+      var map = L.map('map', {drawControl: true}).setView([lat, lng], zoom);
 
       var TI_serv_ov=L.esri.featureLayer({
           url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/monitoramento/tis/MapServer/1',
@@ -40,21 +53,36 @@
       //    url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/monitoramento/ucs/MapServer/1',
           style: {color:'green'}
         });
-        icone_fogo=L.icon({
-            iconUrl: '/static/bitmap/Fire.png',
-            iconSize: [31, 27],
-            iconAnchor: [13.5, 17.5],
-            popupAnchor: [0, -11],
+      icone_fogo=L.icon({
+          iconUrl: '/static/bitmap/Fire.png',
+          iconSize: [31, 27],
+          iconAnchor: [13.5, 17.5],
+          popupAnchor: [0, -11],
+      });
+      var FOCOS24_serv_ov=L.esri.featureLayer({
+          url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/xingu/xingu_focosCalor/MapServer/0',
+          pointToLayer: function (geojson, latlng) {
+            return L.marker(latlng, {icon: icone_fogo});}
         });
-      var FOCOS_serv_ov=L.esri.featureLayer({
-          url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/comuns/focos/MapServer/0',
+      var FOCOS48_serv_ov=L.esri.featureLayer({
+          url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/xingu/xingu_focosCalor/MapServer/1',
+          pointToLayer: function (geojson, latlng) {
+            return L.marker(latlng, {icon: icone_fogo});}
+        });
+      var FOCOS72_serv_ov=L.esri.featureLayer({
+          url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/xingu/xingu_focosCalor/MapServer/2',
+          pointToLayer: function (geojson, latlng) {
+            return L.marker(latlng, {icon: icone_fogo});}
+        });
+      var FOCOSMON_serv_ov=L.esri.featureLayer({
+          url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/xingu/xingu_focosCalor/MapServer/3',
           pointToLayer: function (geojson, latlng) {
             return L.marker(latlng, {icon: icone_fogo});}
         });
       var FOCOS_serv_ov_heatmap= L.esri.heatmapFeatureLayer({
-          url: 'http://gisserver.socioambiental.org:6080/arcgis/rest/services/comuns/focos/MapServer/0',
+          url: 'http://gisserver.socioambiental.org:6080/arcgis/rest/services/xingu/xingu_focosCalor/MapServer/3',
           radius: 12,
-          max: 0.000001,
+          max: 0.0001,
           gradient: {
             0.1: '#ffffb2',
             0.4: '#fd8d3c',
@@ -63,14 +91,6 @@
             1: '#bd0026'
           }
         })
-
-
-      var firms48_sev_ov = L.tileLayer.wms("https://firms.modaps.eosdis.nasa.gov/wms/?SERVICE=WMS", {
-          layers: 'fires48',
-          format: 'image/png',
-          transparent: true,
-          attribution: "Fire data @2015 FIRMS"
-      });
 
       var baseGoogle = new L.Google('ROADMAP');
       var baseESRI=L.esri.basemapLayer('Topographic');
@@ -98,19 +118,39 @@
         var nome_camada='Mosaico EE '+ano
         background[nome_camada]=baseEE;
       }
+            
+      var options = {
+        //exclusiveGroups: ["Focos de Calor"]
+        // Show a checkbox next to non-exclusive group labels for toggling all
+        //groupCheckboxes: true
+      };
       // define feature layers
-      var camadas_raisg={
-        "Terras Indígenas":TI_serv_ov,
-        "Unidades de Conservação":UC_serv_ov,
-        "Focos de Calor":FOCOS_serv_ov,
-        "Focos de Calor HM":FOCOS_serv_ov_heatmap,    
-        "Focos FIRMS 48h": firms48_sev_ov
+      var camadas_mapa={
+        "Areas Protegidas": {
+          "Terras Indígenas":TI_serv_ov,
+          "Unidades de Conservação":UC_serv_ov
+        },
+        "Focos de Calor": {
+          "Focos de Calor 24h":FOCOS24_serv_ov,
+          "Focos de Calor 48h":FOCOS48_serv_ov,
+          "Focos de Calor 72h":FOCOS72_serv_ov,
+          "Focos de Calor mensal":FOCOSMON_serv_ov,
+          "Densidade de Focos de Calor mensal":FOCOS_serv_ov_heatmap
+          }    
         };
 
       osm.addTo(map);
-      L.control.layers(background,camadas_raisg).addTo(map);
+      L.control.groupedLayers(background,camadas_mapa,options).addTo(map);
 
-      //let's add a little scale so no cartographer would be upset
+      // Map coordinates
+      coordOptions= {
+        'position': 'bottomright',
+        'emptystring': 'Posição não disponível',
+        'prefix': 'Posição: ',
+        'separator':','
+      }
+      L.control.mousePosition(coordOptions).addTo(map);
+      //let's add a little scale so no cartographer will be upset
       L.control.scale({'position':'bottomright','metric':true,'imperial':false}).addTo(map);
       // Initialise the FeatureGroup to store editable layers
       var drawnItems = new L.FeatureGroup();
