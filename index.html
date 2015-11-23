@@ -14,8 +14,8 @@
     <script src="/static/leaflet/leaflet.groupedlayercontrol.js"></script>
     <script src="/static/leaflet/leaflet.draw.js"></script>
     <script src="/static/leaflet/L.Control.MousePosition.js"></script>
+    <script src="/static/leaflet/leaflet-omnivore.min.js"></script>
     <script src="/static/js/getQueryVariable.js"></script>
-
     <!--[if lte IE 8]>
       <link rel="stylesheet" href="lib/leaflet/leaflet.ie.css" />
       <link rel="stylesheet" href="leaflet.draw.ie.css" />
@@ -44,10 +44,18 @@
 
       var map = L.map('map', {drawControl: true}).setView([lat, lng], zoom);
 
+      var layer_aldeias=omnivore.kml('/static/geodata/aldeias.kml').on('ready', function() {
+        this.eachLayer(function(layer){layer.bindPopup(layer.feature.properties.name)})});
+
+      var layer_localidades_ribeirinhas=omnivore.kml('/static/geodata/localidades_ribeirinhas.kml').on('ready', function() {
+        layer_localidades_ribeirinhas.setStyle({color: "#FF0000"});
+        this.eachLayer(function(layer){layer.bindPopup(layer.feature.properties.name);
+      })});
+
       var TI_serv_ov=L.esri.featureLayer({
           url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/monitoramento/tis/MapServer/1',
           style: {color:'brown'}
-        });
+      });
       var UC_serv_ov=L.esri.featureLayer({
           url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/raisg/raisg_anps/MapServer/2',
       //    url:'http://gisserver.socioambiental.org:6080/arcgis/rest/services/monitoramento/ucs/MapServer/1',
@@ -129,6 +137,10 @@
         "Areas Protegidas": {
           "Terras Indígenas":TI_serv_ov,
           "Unidades de Conservação":UC_serv_ov
+        },
+        "Localidades": {
+          "Localidades Riberinhas":layer_localidades_ribeirinhas,
+          "Aldeias Indígenas":layer_aldeias
         },
         "Focos de Calor": {
           "Focos de Calor 24h":FOCOS24_serv_ov,

@@ -1,0 +1,3917 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="aldeias" id="aldeias">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="aldeia_etn" type="string"></SimpleField>
+	<SimpleField name="ETNIA" type="string"></SimpleField>
+	<SimpleField name="TIPO" type="string"></SimpleField>
+	<SimpleField name="TIPO2" type="string"></SimpleField>
+	<SimpleField name="NOME_OLD" type="string"></SimpleField>
+	<SimpleField name="SELECAO" type="string"></SimpleField>
+	<SimpleField name="X" type="string"></SimpleField>
+	<SimpleField name="Y" type="string"></SimpleField>
+	<SimpleField name="ESCOLA" type="string"></SimpleField>
+	<SimpleField name="TP_ESCOLA" type="string"></SimpleField>
+	<SimpleField name="ESCOLA_ANE" type="string"></SimpleField>
+	<SimpleField name="ASSE_PEDA" type="string"></SimpleField>
+	<SimpleField name="CEFAPRON" type="string"></SimpleField>
+	<SimpleField name="ASSE_ISA" type="string"></SimpleField>
+	<SimpleField name="TI" type="string"></SimpleField>
+	<SimpleField name="FAM_LINGUI" type="string"></SimpleField>
+	<SimpleField name="fonte" type="string"></SimpleField>
+	<SimpleField name="atualiza" type="string"></SimpleField>
+	<SimpleField name="ESCOLA_EVA" type="string"></SimpleField>
+</Schema>
+<Folder><name>aldeias</name>
+  <Placemark>
+	<name>Aiha</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="aldeia_etn">Aiha/Kalapalo</SimpleData>
+		<SimpleData name="ETNIA">Kalapalo</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 15' 26,883&quot;</SimpleData>
+		<SimpleData name="Y">-12° 9' 40,022&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.257467530505082,-12.161117127017558</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Piyulaga</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="aldeia_etn">Piyulaga/Waurá</SimpleData>
+		<SimpleData name="ETNIA">Waurá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">Waurá /  Pillaga/Waurá</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 34' 56,045&quot;</SimpleData>
+		<SimpleData name="Y">-12° 14' 53,923&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Estadual Central Leonardo</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual central</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="ASSE_PEDA">Gaúcha do Norte</SimpleData>
+		<SimpleData name="CEFAPRON">Primavera do Leste</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Aruak</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor vermelha, aguardar Pau*</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.582234591203552,-12.248311929497188</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jacaré</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="aldeia_etn">Jacaré/Kamaiurá</SimpleData>
+		<SimpleData name="ETNIA">Kamaiurá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">Jacaré</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 24' 4,923&quot;</SimpleData>
+		<SimpleData name="Y">-12° 0' 21,454&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.401367592076184,-12.005959481388777</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Boa Esperança</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="aldeia_etn">Boa Esperança/Trumai</SimpleData>
+		<SimpleData name="ETNIA">Trumai</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 35' 42,375&quot;</SimpleData>
+		<SimpleData name="Y">-11° 51' 23,316&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena Boa Esperança Awaldad</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Língua não classificada em qualquer família</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.595104091032816,-11.856476699858348</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kayasu</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="aldeia_etn">Kayasu/Kawaiwete-Kisêdjê</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete-Kisêdjê</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">Aldeia Velha Rikô/Kisêdjê</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 6' 11,417&quot;</SimpleData>
+		<SimpleData name="Y">-11° 25' 53,980&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.103171378472346,-11.431661069606687</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ipatse</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="aldeia_etn">Ipatse/Kuikuro</SimpleData>
+		<SimpleData name="ETNIA">Kuikuro</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 12' 33,827&quot;</SimpleData>
+		<SimpleData name="Y">-12° 21' 3,882&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Estadual Central Karib Comunidade Kuikuro</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual central</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="ASSE_PEDA">Canarana</SimpleData>
+		<SimpleData name="CEFAPRON">Primavera do Leste</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor vermelha, aguardar Pau*</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.209396441285584,-12.351078459640863</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mehinaku</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="aldeia_etn">Mehinaku/Mehinaku</SimpleData>
+		<SimpleData name="ETNIA">Mehinaku</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 25' 10,427&quot;</SimpleData>
+		<SimpleData name="Y">-12° 36' 2,071&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Mehinako</SimpleData>
+		<SimpleData name="TP_ESCOLA">municipal</SimpleData>
+		<SimpleData name="ASSE_PEDA">Gaúcha do Norte</SimpleData>
+		<SimpleData name="CEFAPRON">Primavera do Leste</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Aruak</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor vermelha, aguardar Pau*</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.419563119035331,-12.600575197493848</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tazu' jyt tetam</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="aldeia_etn">Tazu' jyt tetam/Aweti</SimpleData>
+		<SimpleData name="ETNIA">Aweti</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 23' 52,373&quot;</SimpleData>
+		<SimpleData name="Y">-12° 24' 23,329&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Aweti (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.397881426121131,-12.406480144652249</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV KAPOT</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="aldeia_etn">PIV KAPOT/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 14' 41,124&quot;</SimpleData>
+		<SimpleData name="Y">-9° 44' 51,444&quot;</SimpleData>
+		<SimpleData name="TI">CAPOTO</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.24475657580048,-9.747623323221134</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Antiga Faz. Yudja</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="aldeia_etn">Antiga Faz. Yudja/Yudja</SimpleData>
+		<SimpleData name="ETNIA">Yudja</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">antiga Fazenda</SimpleData>
+		<SimpleData name="NOME_OLD">PIV JARINÃ</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 25' 13,812&quot;</SimpleData>
+		<SimpleData name="Y">-10° 36' 52,956&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Juruna (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.420503348859647,-10.614710061888211</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Antigo PIV TUIUIU</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="aldeia_etn">Antigo PIV TUIUIU</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 45' 40,170&quot;</SimpleData>
+		<SimpleData name="Y">-10° 48' 5,204&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.761158401543582,-10.801445504808358</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Morená</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="aldeia_etn">Morená/Kamaiurá</SimpleData>
+		<SimpleData name="ETNIA">Kamaiurá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 33' 21,186&quot;</SimpleData>
+		<SimpleData name="Y">-11° 55' 46,819&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena Sol e Lua</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.555884957624208,-11.929672016210457</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Aldeia VelhaTerra Preta</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="aldeia_etn">Aldeia VelhaTerra Preta/Trumai</SimpleData>
+		<SimpleData name="ETNIA">Trumai</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeia antiga/abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 35' 20,675&quot;</SimpleData>
+		<SimpleData name="Y">-11° 49' 44,156&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Língua não classificada em qualquer família</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.58907640543206,-11.828932164917294</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ipavu</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="aldeia_etn">Ipavu/Kamaiurá</SimpleData>
+		<SimpleData name="ETNIA">Kamaiurá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 25' 56,851&quot;</SimpleData>
+		<SimpleData name="Y">-12° 9' 13,068&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.432458728519308,-12.153630135325216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CTL DIAUARUM</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="aldeia_etn">CTL DIAUARUM/Kawaiwete/Yudja</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete/Yudja</SimpleData>
+		<SimpleData name="TIPO">P</SimpleData>
+		<SimpleData name="TIPO2">PIN</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 14' 12,617&quot;</SimpleData>
+		<SimpleData name="Y">-11° 11' 57,055&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena Estadual Central Diauarum</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual central</SimpleData>
+		<SimpleData name="ASSE_PEDA">Canarana</SimpleData>
+		<SimpleData name="CEFAPRON">São Félix do Araguaia</SimpleData>
+		<SimpleData name="ASSE_ISA">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.236838082792076,-11.199181913833581</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Iguaçu</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="aldeia_etn">Iguaçu/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">Arraia/Kayabi</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 47' 20,977&quot;</SimpleData>
+		<SimpleData name="Y">-11° 19' 30,862&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor verde, agardar Paulo</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.789160152656422,-11.325239410549782</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Piaraçu</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="aldeia_etn">Piaraçu/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 4' 31,422&quot;</SimpleData>
+		<SimpleData name="Y">-10° 46' 44,396&quot;</SimpleData>
+		<SimpleData name="TI">CAPOTO</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.0753950200451,-10.77899880287127</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Antigo PIV RIO PRETO</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="aldeia_etn">Antigo PIV RIO PRETO</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 56' 36,463&quot;</SimpleData>
+		<SimpleData name="Y">-10° 56' 20,850&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.94346195811611,-10.939124962593484</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Matipu</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="aldeia_etn">Matipu/Matipu</SimpleData>
+		<SimpleData name="ETNIA">Matipu</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 11' 10,716&quot;</SimpleData>
+		<SimpleData name="Y">-12° 13' 50,524&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola da Aldeia Matupu</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.186310080170799,-12.23070098463487</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Magiyape</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">20</SimpleData>
+		<SimpleData name="aldeia_etn">Magiyape/Nahukuá</SimpleData>
+		<SimpleData name="ETNIA">Nahukuá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 17' 39,761&quot;</SimpleData>
+		<SimpleData name="Y">-12° 6' 18,803&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Aldeia Nafukua</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor vermelha, aguardar Pau*</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.294378122402662,-12.105223002940503</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tupará</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">21</SimpleData>
+		<SimpleData name="aldeia_etn">Tupará/Ikpeng</SimpleData>
+		<SimpleData name="ETNIA">Ikpeng</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">PIV RONURO</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 58' 3,053&quot;</SimpleData>
+		<SimpleData name="Y">-12° 12' 34,351&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola da Aldeia Tupara</SimpleData>
+		<SimpleData name="TP_ESCOLA">municipal</SimpleData>
+		<SimpleData name="ASSE_PEDA">Nova Ubiratã</SimpleData>
+		<SimpleData name="CEFAPRON">Sinop</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.967514760683116,-12.20954182136286</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Metytire Velha</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">22</SimpleData>
+		<SimpleData name="aldeia_etn">Metytire Velha/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeia antiga/abando</SimpleData>
+		<SimpleData name="NOME_OLD">METYKTIRE/Kayapó</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 59' 42,468&quot;</SimpleData>
+		<SimpleData name="Y">-10° 3' 41,914&quot;</SimpleData>
+		<SimpleData name="TI">CAPOTO</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.995130092447631,-10.061642875153046</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV TRAIRÃO</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">23</SimpleData>
+		<SimpleData name="aldeia_etn">PIV TRAIRÃO/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 3' 47,815&quot;</SimpleData>
+		<SimpleData name="Y">-8° 37' 30,260&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.063281979758258,-8.625072141766214</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">24</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="NOME_OLD">PIV NHAKINH</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 37' 38,298&quot;</SimpleData>
+		<SimpleData name="Y">-8° 11' 45,667&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.627304872392322,-8.196018518504262</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kubenkrankrei</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">25</SimpleData>
+		<SimpleData name="aldeia_etn">Kubenkrankrei/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 7' 30,230&quot;</SimpleData>
+		<SimpleData name="Y">-8° 8' 4,080&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.125063883893958,-8.134466657916903</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV JOSÉ BISPO</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">26</SimpleData>
+		<SimpleData name="aldeia_etn">PIV JOSÉ BISPO/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 41' 29,694&quot;</SimpleData>
+		<SimpleData name="Y">-8° 4' 1,190&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.691581753223709,-8.066997294348999</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV TÉPORE</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">27</SimpleData>
+		<SimpleData name="aldeia_etn">PIV TÉPORE/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 4' 45,082&quot;</SimpleData>
+		<SimpleData name="Y">-8° 0' 30,826&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.079189334059755,-8.008562721336533</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV PONTY</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">28</SimpleData>
+		<SimpleData name="aldeia_etn">PIV PONTY/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-50° 50' 48,335&quot;</SimpleData>
+		<SimpleData name="Y">-7° 44' 49,514&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-50.84675958713953,-7.747087089595066</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV JUARY</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">29</SimpleData>
+		<SimpleData name="aldeia_etn">PIV JUARY/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-50° 57' 0,072&quot;</SimpleData>
+		<SimpleData name="Y">-7° 25' 8,371&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-50.950019870041217,-7.418991930221106</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV TEGMAINE</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">36</SimpleData>
+		<SimpleData name="aldeia_etn">PIV TEGMAINE/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="NOME_OLD">PIV KENDJAN</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 42' 45,476&quot;</SimpleData>
+		<SimpleData name="Y">-7° 12' 5,276&quot;</SimpleData>
+		<SimpleData name="TI">MENKRAGNOTI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.712632117290106,-7.201465603979894</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV NGONOKAKET</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">39</SimpleData>
+		<SimpleData name="aldeia_etn">PIV NGONOKAKET/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 1' 53,612&quot;</SimpleData>
+		<SimpleData name="Y">-9° 6' 42,330&quot;</SimpleData>
+		<SimpleData name="TI">BADJÔNKÔRE</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.031558763494871,-9.111758244413803</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV KRAYNKÊTI</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">40</SimpleData>
+		<SimpleData name="aldeia_etn">PIV KRAYNKÊTI/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 47' 12,990&quot;</SimpleData>
+		<SimpleData name="Y">-8° 39' 59,873&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.786941610881456,-8.666631498973354</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kokokuedjã</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">41</SimpleData>
+		<SimpleData name="aldeia_etn">Kokokuedjã/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">PIV KOKOKWÊDJÀ</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-50° 50' 40,102&quot;</SimpleData>
+		<SimpleData name="Y">-7° 14' 54,048&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-50.844472741189456,-7.248346594974615</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CTL KURISEVO</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">42</SimpleData>
+		<SimpleData name="aldeia_etn">CTL KURISEVO/Mehinaku</SimpleData>
+		<SimpleData name="ETNIA">Mehinaku</SimpleData>
+		<SimpleData name="TIPO">P</SimpleData>
+		<SimpleData name="TIPO2">CTL</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 26' 17,250&quot;</SimpleData>
+		<SimpleData name="Y">-12° 59' 33,351&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Aruak</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.438124864602052,-12.99259749690667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CTL KULUENE</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">43</SimpleData>
+		<SimpleData name="aldeia_etn">CTL KULUENE/Kalapalo</SimpleData>
+		<SimpleData name="ETNIA">Kalapalo</SimpleData>
+		<SimpleData name="TIPO">P</SimpleData>
+		<SimpleData name="TIPO2">CTL</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 48' 39,766&quot;</SimpleData>
+		<SimpleData name="Y">-12° 50' 46,932&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.811045979751917,-12.846370044386044</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CTL TANGURO</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">44</SimpleData>
+		<SimpleData name="aldeia_etn">CTL TANGURO/Kalapalo</SimpleData>
+		<SimpleData name="ETNIA">Kalapalo</SimpleData>
+		<SimpleData name="TIPO">P</SimpleData>
+		<SimpleData name="TIPO2">CTL</SimpleData>
+		<SimpleData name="NOME_OLD">PIV TANGURO</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 37' 20,886&quot;</SimpleData>
+		<SimpleData name="Y">-12° 41' 38,773&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.622468376897025,-12.69410356439837</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Capivara</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">45</SimpleData>
+		<SimpleData name="aldeia_etn">Capivara/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">S</SimpleData>
+		<SimpleData name="X">-53° 15' 34,484&quot;</SimpleData>
+		<SimpleData name="Y">-11° 5' 37,945&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena Kwasiat</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor verde, agardar Paulo</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.25957875659325,-11.093873552496522</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pequizal</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">46</SimpleData>
+		<SimpleData name="aldeia_etn">Pequizal/Yudja</SimpleData>
+		<SimpleData name="ETNIA">Yudja</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 16' 43,071&quot;</SimpleData>
+		<SimpleData name="Y">-11° 2' 49,741&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena Aribaru</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Juruna (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor verde, agardar Paulo</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.27863088956429,-11.04715040061185</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tuba Tuba</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">47</SimpleData>
+		<SimpleData name="aldeia_etn">Tuba Tuba /Yudja</SimpleData>
+		<SimpleData name="ETNIA">Yudja</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">S</SimpleData>
+		<SimpleData name="X">-53° 18' 54,439&quot;</SimpleData>
+		<SimpleData name="Y">-10° 56' 51,623&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena Estadual Central Kamadu</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual central</SimpleData>
+		<SimpleData name="ASSE_PEDA">Marcelândia</SimpleData>
+		<SimpleData name="CEFAPRON">Matupá</SimpleData>
+		<SimpleData name="ASSE_ISA">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Juruna (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.315121981546724,-10.947673018482881</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Caiçara</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">48</SimpleData>
+		<SimpleData name="aldeia_etn">Caiçara/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 13' 22,983&quot;</SimpleData>
+		<SimpleData name="Y">-10° 51' 31,046&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor verde, agardar Paulo</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.223050966881516,-10.858623861642698</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Aiporé</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">49</SimpleData>
+		<SimpleData name="aldeia_etn">Aiporé/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">Kururu/Kaiabi</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 25' 21,603&quot;</SimpleData>
+		<SimpleData name="Y">-11° 2' 43,428&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena Estadual Central Panaku</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual central</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="ASSE_PEDA">Marcelândia</SimpleData>
+		<SimpleData name="CEFAPRON">Matupá</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor verde, agardar Paulo</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.42266744567015,-11.045396722654532</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sobradinho</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">50</SimpleData>
+		<SimpleData name="aldeia_etn">Sobradinho/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 45' 25,124&quot;</SimpleData>
+		<SimpleData name="Y">-11° 15' 18,807&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena  Jaytata</SimpleData>
+		<SimpleData name="TP_ESCOLA">municipal</SimpleData>
+		<SimpleData name="ASSE_PEDA">Feliz Natal</SimpleData>
+		<SimpleData name="CEFAPRON">Sinop</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor verde, agardar Paulo</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.756978873933448,-11.255224128369896</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tuim</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">51</SimpleData>
+		<SimpleData name="aldeia_etn">Tuim/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">sitio antigo</SimpleData>
+		<SimpleData name="NOME_OLD">não existe mais, foram para Samauma</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 21' 58,509&quot;</SimpleData>
+		<SimpleData name="Y">-11° 24' 0,976&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.366252577310952,-11.400271176660155</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Piraquara</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">52</SimpleData>
+		<SimpleData name="aldeia_etn">Piraquara/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 16' 17,493&quot;</SimpleData>
+		<SimpleData name="Y">-11° 17' 11,082&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.271525893647045,-11.28641165407473</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kwaryja</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">53</SimpleData>
+		<SimpleData name="aldeia_etn">Kwaryja/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 30' 45,804&quot;</SimpleData>
+		<SimpleData name="Y">-11° 28' 27,647&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Esocla Indígena Ka´i</SimpleData>
+		<SimpleData name="TP_ESCOLA">municipal</SimpleData>
+		<SimpleData name="ASSE_PEDA">Feliz Natal</SimpleData>
+		<SimpleData name="CEFAPRON">Sinop</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.512723456627867,-11.47434634202175</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Yawalapiti</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">54</SimpleData>
+		<SimpleData name="aldeia_etn">Yawalapiti/Yawalapiti</SimpleData>
+		<SimpleData name="ETNIA">Yawalapiti</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">S</SimpleData>
+		<SimpleData name="X">-53° 20' 4,422&quot;</SimpleData>
+		<SimpleData name="Y">-12° 9' 58,062&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola da Aldeia Yawalapiti</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Aruak</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.334561645089742,-12.166128463228729</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Aldeia Velha Yawalapiti</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">55</SimpleData>
+		<SimpleData name="aldeia_etn">Aldeia Velha Yawalapiti/Yawalapiti</SimpleData>
+		<SimpleData name="ETNIA">Yawalapiti</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeia antiga/abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 23' 22,880&quot;</SimpleData>
+		<SimpleData name="Y">-12° 12' 39,508&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Aruak</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.389688824454943,-12.210974519596695</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">56</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 33' 16,069&quot;</SimpleData>
+		<SimpleData name="Y">-7° 14' 1,235&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.554463693237807,-7.233676508691476</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">57</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 21' 36,182&quot;</SimpleData>
+		<SimpleData name="Y">-7° 8' 48,677&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.360050472102813,-7.146854835821164</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">58</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 58' 55,420&quot;</SimpleData>
+		<SimpleData name="Y">-7° 2' 37,518&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.982060979420041,-7.043754872142538</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">59</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 44' 38,345&quot;</SimpleData>
+		<SimpleData name="Y">-6° 58' 47,007&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.743984621405993,-6.979724267802164</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">60</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 18' 46,253&quot;</SimpleData>
+		<SimpleData name="Y">-7° 2' 25,798&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.312847933611266,-7.040499326396129</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">61</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 5' 14,647&quot;</SimpleData>
+		<SimpleData name="Y">-6° 53' 38,361&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.087401925562851,-6.893989088358615</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">62</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-50° 50' 52,439&quot;</SimpleData>
+		<SimpleData name="Y">-7° 4' 15,193&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-50.847899789394368,-7.070886855693111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV BÀDJUMKÔRE</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">63</SimpleData>
+		<SimpleData name="aldeia_etn">PIV BÀDJUMKÔRE/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-50° 58' 10,216&quot;</SimpleData>
+		<SimpleData name="Y">-7° 31' 24,389&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-50.969504343581363,-7.523441439020093</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV NGÔTÀYTCH</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">64</SimpleData>
+		<SimpleData name="aldeia_etn">PIV NGÔTÀYTCH/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-50° 53' 45,317&quot;</SimpleData>
+		<SimpleData name="Y">-7° 51' 19,915&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-50.895921304816525,-7.85553183650964</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV TURUTIKRÔ</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">65</SimpleData>
+		<SimpleData name="aldeia_etn">PIV TURUTIKRÔ/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 12' 18,580&quot;</SimpleData>
+		<SimpleData name="Y">-8° 7' 56,189&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.205161032929816,-8.13227458385262</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">66</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 51' 55,445&quot;</SimpleData>
+		<SimpleData name="Y">-7° 39' 17,132&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.865401258436655,-7.654758755523518</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PV FUNAI</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">67</SimpleData>
+		<SimpleData name="aldeia_etn">PV FUNAI/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 12' 2,997&quot;</SimpleData>
+		<SimpleData name="Y">-9° 36' 45,851&quot;</SimpleData>
+		<SimpleData name="TI">MENKRAGNOTI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.200832529024218,-9.612736260337279</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CTL Batovi</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">68</SimpleData>
+		<SimpleData name="aldeia_etn">CTL Batovi/Waurá</SimpleData>
+		<SimpleData name="ETNIA">Waurá</SimpleData>
+		<SimpleData name="TIPO">P</SimpleData>
+		<SimpleData name="TIPO2">CTL</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 58' 37,017&quot;</SimpleData>
+		<SimpleData name="Y">-12° 59' 41,522&quot;</SimpleData>
+		<SimpleData name="TI">BATOVI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Aruak</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.976949160072337,-12.994867203146487</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Steinen</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">69</SimpleData>
+		<SimpleData name="aldeia_etn">Steinen/Trumai</SimpleData>
+		<SimpleData name="ETNIA">Trumai</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 56' 45,584&quot;</SimpleData>
+		<SimpleData name="Y">-12° 4' 57,487&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena Cocal</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Língua não classificada em qualquer família</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.945995472631893,-12.082635406019715</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Antigo PIV TERRA NOVA</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">70</SimpleData>
+		<SimpleData name="aldeia_etn">Antigo PIV TERRA NOVA</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 59' 29,369&quot;</SimpleData>
+		<SimpleData name="Y">-12° 7' 46,748&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.991491423764501,-12.129652271083248</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TYWAPÉ</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">71</SimpleData>
+		<SimpleData name="aldeia_etn">TYWAPÉ</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="NOME_OLD">PIV TYWAPÉ</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 59' 30,533&quot;</SimpleData>
+		<SimpleData name="Y">-11° 34' 28,569&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.991814606190125,-11.574602528934273</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ilha Grande</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">72</SimpleData>
+		<SimpleData name="aldeia_etn">Ilha Grande/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">S</SimpleData>
+		<SimpleData name="X">-53° 27' 36,197&quot;</SimpleData>
+		<SimpleData name="Y">-11° 29' 58,517&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena Itamaraká</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.460054602962771,-11.49958815751061</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Faz. Ronkho</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">73</SimpleData>
+		<SimpleData name="aldeia_etn">Faz. Ronkho/Kisêdjê</SimpleData>
+		<SimpleData name="ETNIA">Kisêdjê</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">PIV WAWÍ\Kisêdjê / Faz. Ronkô</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 56' 57,695&quot;</SimpleData>
+		<SimpleData name="Y">-11° 52' 45,176&quot;</SimpleData>
+		<SimpleData name="TI">WAWI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.949359683707954,-11.879215507885831</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Antiga Faz. Boa Vista</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">74</SimpleData>
+		<SimpleData name="aldeia_etn">Antiga Faz. Boa Vista/Yudja</SimpleData>
+		<SimpleData name="ETNIA">Yudja</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">antiga Fazenda</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 6' 24,442&quot;</SimpleData>
+		<SimpleData name="Y">-10° 48' 40,501&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Juruna (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.106789535496716,-10.811250363233835</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ngosoko Velha</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">75</SimpleData>
+		<SimpleData name="aldeia_etn">Ngosoko Velha/Kisêdjê</SimpleData>
+		<SimpleData name="ETNIA">Kisêdjê</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeia antiga/abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 2' 2,496&quot;</SimpleData>
+		<SimpleData name="Y">-11° 30' 52,591&quot;</SimpleData>
+		<SimpleData name="TI">WAWI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.034026601977736,-11.514608512637087</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>A'Ukre</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">76</SimpleData>
+		<SimpleData name="aldeia_etn">A'Ukre/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">A'UKRE</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 52' 53,773&quot;</SimpleData>
+		<SimpleData name="Y">-7° 41' 42,585&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.881603555724269,-7.695162430862892</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Baú</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">77</SimpleData>
+		<SimpleData name="aldeia_etn">Baú/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">BAÚ</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-54° 49' 14,557&quot;</SimpleData>
+		<SimpleData name="Y">-7° 20' 52,995&quot;</SimpleData>
+		<SimpleData name="TI">BAÚ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.820710366856346,-7.348054148684473</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Gorotire</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">78</SimpleData>
+		<SimpleData name="aldeia_etn">Gorotire/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">GOROTIRE</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 7' 58,039&quot;</SimpleData>
+		<SimpleData name="Y">-7° 45' 51,366&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.132788477315088,-7.764268286231056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kapot</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">79</SimpleData>
+		<SimpleData name="aldeia_etn">Kapot/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeia antiga/abando</SimpleData>
+		<SimpleData name="NOME_OLD">KREMORO/KAYAPÓ</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 14' 32,231&quot;</SimpleData>
+		<SimpleData name="Y">-9° 46' 5,770&quot;</SimpleData>
+		<SimpleData name="TI">CAPOTO</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.242286375576164,-9.768269508710963</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kikretum</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">80</SimpleData>
+		<SimpleData name="aldeia_etn">Kikretum/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">Djudjetuktire</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 39' 21,287&quot;</SimpleData>
+		<SimpleData name="Y">-7° 8' 0,358&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.655913111510515,-7.133432864623299</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kokraimoro</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">81</SimpleData>
+		<SimpleData name="aldeia_etn">Kokraimoro/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">KOKRAIMORO</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 34' 21,397&quot;</SimpleData>
+		<SimpleData name="Y">-7° 12' 39,327&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.572610145929659,-7.210924029170491</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kubenkokre</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">82</SimpleData>
+		<SimpleData name="aldeia_etn">Kubenkokre/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 23' 14,959&quot;</SimpleData>
+		<SimpleData name="Y">-8° 43' 24,108&quot;</SimpleData>
+		<SimpleData name="TI">MENKRAGNOTI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.387488663244795,-8.723363264179095</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Menkragnoti</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">83</SimpleData>
+		<SimpleData name="aldeia_etn">Menkragnoti/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeia antiga/abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-54° 12' 31,041&quot;</SimpleData>
+		<SimpleData name="Y">-8° 39' 23,297&quot;</SimpleData>
+		<SimpleData name="TI">MENKRAGNOTI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.208622377601309,-8.656471408346267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Moikarakô</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">84</SimpleData>
+		<SimpleData name="aldeia_etn">Moikarakô/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">MOIKARAKO</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 49' 7,865&quot;</SimpleData>
+		<SimpleData name="Y">-7° 26' 10,770&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.818851335408596,-7.436325055622774</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nâsepotiti</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">85</SimpleData>
+		<SimpleData name="aldeia_etn">Nâsepotiti/Panará</SimpleData>
+		<SimpleData name="ETNIA">Panará</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-54° 0' 18,140&quot;</SimpleData>
+		<SimpleData name="Y">-9° 30' 25,287&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena Matukre</SimpleData>
+		<SimpleData name="TP_ESCOLA">municipal</SimpleData>
+		<SimpleData name="ASSE_PEDA">Guarantã do Norte</SimpleData>
+		<SimpleData name="CEFAPRON">Matupá</SimpleData>
+		<SimpleData name="ASSE_ISA">sim</SimpleData>
+		<SimpleData name="TI">PANARÁ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.005038902412295,-9.507024105207661</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pukany</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">86</SimpleData>
+		<SimpleData name="aldeia_etn">Pukany/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 27' 9,742&quot;</SimpleData>
+		<SimpleData name="Y">-8° 9' 39,502&quot;</SimpleData>
+		<SimpleData name="TI">MENKRAGNOTI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.452706147402232,-8.160972905789928</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV PURURE</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">87</SimpleData>
+		<SimpleData name="aldeia_etn">PIV PURURE/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 17' 59,776&quot;</SimpleData>
+		<SimpleData name="Y">-8° 13' 1,658&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.299937793603164,-8.217127303554825</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CTL LEONARDO</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">88</SimpleData>
+		<SimpleData name="aldeia_etn">CTL LEONARDO/Trumai</SimpleData>
+		<SimpleData name="ETNIA">Trumai</SimpleData>
+		<SimpleData name="TIPO">P</SimpleData>
+		<SimpleData name="TIPO2">CTL</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 22' 38,137&quot;</SimpleData>
+		<SimpleData name="Y">-12° 11' 52,929&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Língua não classificada em qualquer família</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.37726033230642,-12.198035833265566</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Barranco Alto</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">89</SimpleData>
+		<SimpleData name="aldeia_etn">Barranco Alto/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 32' 15,977&quot;</SimpleData>
+		<SimpleData name="Y">-11° 33' 9,212&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena Jotowosi</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor verde, agardar Paulo</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.537771508779777,-11.552558755641948</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Paksamba</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">90</SimpleData>
+		<SimpleData name="aldeia_etn">Paksamba/Yudja</SimpleData>
+		<SimpleData name="ETNIA">Yudja</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 17' 22,056&quot;</SimpleData>
+		<SimpleData name="Y">-11° 1' 40,761&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena Sebaya´u</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Juruna (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.289459888415962,-11.027989220623057</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Casa de apoio</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">91</SimpleData>
+		<SimpleData name="aldeia_etn">Casa de apoio</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">antiga casa apoio</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 50' 2,633&quot;</SimpleData>
+		<SimpleData name="Y">-10° 45' 3,601&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.834064731707024,-10.75100028387453</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Faz. Sto. Antonio</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">92</SimpleData>
+		<SimpleData name="aldeia_etn">Faz. Sto. Antonio/Kisêdjê</SimpleData>
+		<SimpleData name="ETNIA">Kisêdjê</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">antiga Fazenda</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 1' 33,150&quot;</SimpleData>
+		<SimpleData name="Y">-11° 45' 15,224&quot;</SimpleData>
+		<SimpleData name="TI">WAWI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.025874966087095,-11.754228856393077</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Faz. S. Caetano</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">93</SimpleData>
+		<SimpleData name="aldeia_etn">Faz. S. Caetano/Kisêdjê</SimpleData>
+		<SimpleData name="ETNIA">Kisêdjê</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">antiga Fazenda</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 4' 20,624&quot;</SimpleData>
+		<SimpleData name="Y">-11° 57' 46,682&quot;</SimpleData>
+		<SimpleData name="TI">WAWI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.072395577198471,-11.962967120178297</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CTL PAVURU</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">94</SimpleData>
+		<SimpleData name="aldeia_etn">CTL PAVURU/Ikpeng</SimpleData>
+		<SimpleData name="ETNIA">Ikpeng</SimpleData>
+		<SimpleData name="TIPO">P</SimpleData>
+		<SimpleData name="TIPO2">CTL</SimpleData>
+		<SimpleData name="SELECAO">S</SimpleData>
+		<SimpleData name="X">-53° 37' 29,652&quot;</SimpleData>
+		<SimpleData name="Y">-11° 44' 19,975&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Central Ikpeng</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual central</SimpleData>
+		<SimpleData name="ASSE_PEDA">Canarana</SimpleData>
+		<SimpleData name="CEFAPRON">Sinop</SimpleData>
+		<SimpleData name="ASSE_ISA">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.624903396050769,-11.73888199430993</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Moygu</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">95</SimpleData>
+		<SimpleData name="aldeia_etn">Moygu/Ikpeng</SimpleData>
+		<SimpleData name="ETNIA">Ikpeng</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 37' 27,670&quot;</SimpleData>
+		<SimpleData name="Y">-11° 44' 39,744&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor vermelha, aguardar Pau*</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.624352704340332,-11.744373411103448</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Aldeia Velha Aranha</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">96</SimpleData>
+		<SimpleData name="aldeia_etn">Aldeia Velha Aranha/Kisêdjê</SimpleData>
+		<SimpleData name="ETNIA">Kisêdjê</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeia antiga/abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 12' 47,153&quot;</SimpleData>
+		<SimpleData name="Y">-11° 15' 53,631&quot;</SimpleData>
+		<SimpleData name="TI">WAWI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.213097998257872,-11.264897622826533</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ngojhwere</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">97</SimpleData>
+		<SimpleData name="aldeia_etn">Ngojhwere/Kisêdjê</SimpleData>
+		<SimpleData name="ETNIA">Kisêdjê</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">Ngohjwêrê/Kisêdjê</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 54' 0,730&quot;</SimpleData>
+		<SimpleData name="Y">-11° 51' 57,713&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena Estadual Central Kisedje</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual central</SimpleData>
+		<SimpleData name="ASSE_PEDA">Querência</SimpleData>
+		<SimpleData name="CEFAPRON">Barra do Garças</SimpleData>
+		<SimpleData name="ASSE_ISA">sim</SimpleData>
+		<SimpleData name="TI">WAWI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.900202684203329,-11.866031446934903</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tuiararé</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">98</SimpleData>
+		<SimpleData name="aldeia_etn">Tuiararé/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">S</SimpleData>
+		<SimpleData name="X">-53° 23' 49,750&quot;</SimpleData>
+		<SimpleData name="Y">-11° 26' 13,325&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escoal Indígena Itauu</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.397152877053053,-11.437034800220124</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Três Patos</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">99</SimpleData>
+		<SimpleData name="aldeia_etn">Três Patos/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 35' 49,565&quot;</SimpleData>
+		<SimpleData name="Y">-11° 7' 29,378&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Aldeia Três Patos</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor verde, agardar Paulo</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.597101516361207,-11.124827090797114</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV MANITO</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">100</SimpleData>
+		<SimpleData name="aldeia_etn">PIV MANITO/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">P</SimpleData>
+		<SimpleData name="TIPO2">PIV</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 35' 54,822&quot;</SimpleData>
+		<SimpleData name="Y">-11° 6' 43,930&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.59856178946508,-11.112202859608125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Três Irmãos</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">101</SimpleData>
+		<SimpleData name="aldeia_etn">Três Irmãos/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 34' 51,538&quot;</SimpleData>
+		<SimpleData name="Y">-11° 37' 59,259&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena Yising</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.58098286420956,-11.633127466723574</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tanguro</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">102</SimpleData>
+		<SimpleData name="aldeia_etn">Tanguro/Kalapalo</SimpleData>
+		<SimpleData name="ETNIA">Kalapalo</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 55' 25,302&quot;</SimpleData>
+		<SimpleData name="Y">-12° 36' 0,679&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Aldeia Tanguro</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.923694917081534,-12.600188489021209</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Afukuri</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">103</SimpleData>
+		<SimpleData name="aldeia_etn">Afukuri/Kuikuro</SimpleData>
+		<SimpleData name="ETNIA">Kuikuro</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 0' 14,517&quot;</SimpleData>
+		<SimpleData name="Y">-12° 30' 53,502&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.00403238211566,-12.514861614369511</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kunué</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">104</SimpleData>
+		<SimpleData name="aldeia_etn">Kunué/Kalapalo</SimpleData>
+		<SimpleData name="ETNIA">Kalapalo</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 50' 58,994&quot;</SimpleData>
+		<SimpleData name="Y">-12° 48' 26,882&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Aldeia Kalapalo</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.849720654851957,-12.807467233192387</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Piyulewene</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">105</SimpleData>
+		<SimpleData name="aldeia_etn">Piyulewene/Waurá</SimpleData>
+		<SimpleData name="ETNIA">Waurá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">Aruak/Waurá</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 51' 23,343&quot;</SimpleData>
+		<SimpleData name="Y">-12° 4' 6,676&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola da Aldeia Waurá 2</SimpleData>
+		<SimpleData name="TP_ESCOLA">municipal</SimpleData>
+		<SimpleData name="ASSE_PEDA">Feliz Natal</SimpleData>
+		<SimpleData name="CEFAPRON">Sinop</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Aruak</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.856484180862772,-12.068520997328708</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Saidão da Fumaça</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">106</SimpleData>
+		<SimpleData name="aldeia_etn">Saidão da Fumaça/Aweti</SimpleData>
+		<SimpleData name="ETNIA">Aweti</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 21' 11,618&quot;</SimpleData>
+		<SimpleData name="Y">-12° 15' 45,606&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Aldeia Saidão</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Aweti (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.353227229462661,-12.262668219841222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Roptotxi</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">107</SimpleData>
+		<SimpleData name="aldeia_etn">Roptotxi/Kisêdjê</SimpleData>
+		<SimpleData name="ETNIA">Kisêdjê</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 56' 32,778&quot;</SimpleData>
+		<SimpleData name="Y">-11° 38' 13,891&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Aldeia Roptxi</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">WAWI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.942438348696477,-11.637192079439842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Horerusikhô</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">108</SimpleData>
+		<SimpleData name="aldeia_etn">Horerusikhô/Kisêdjê</SimpleData>
+		<SimpleData name="ETNIA">Kisêdjê</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">Horehusikrô/Kisêdjê</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 57' 42,656&quot;</SimpleData>
+		<SimpleData name="Y">-11° 36' 26,616&quot;</SimpleData>
+		<SimpleData name="TI">WAWI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.961848758372092,-11.60739323375279</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV Mosquito</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">109</SimpleData>
+		<SimpleData name="aldeia_etn">PIV Mosquito/Yudja</SimpleData>
+		<SimpleData name="ETNIA">Yudja</SimpleData>
+		<SimpleData name="TIPO">P</SimpleData>
+		<SimpleData name="TIPO2">PIV</SimpleData>
+		<SimpleData name="NOME_OLD">PIV MOSQUITO</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 29' 8,820&quot;</SimpleData>
+		<SimpleData name="Y">-10° 45' 33,509&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Juruna (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.485783375241766,-10.75930800764276</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lahatua</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">110</SimpleData>
+		<SimpleData name="aldeia_etn">Lahatua/Kuikuro</SimpleData>
+		<SimpleData name="ETNIA">Kuikuro</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 6' 28,900&quot;</SimpleData>
+		<SimpleData name="Y">-12° 33' 13,581&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.108027779452911,-12.553772626480759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>11 de Setembro</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">111</SimpleData>
+		<SimpleData name="aldeia_etn">11 de Setembro/Kawaiwete-Kisêdjê</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete-Kisêdjê</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 12' 21,743&quot;</SimpleData>
+		<SimpleData name="Y">-11° 19' 40,703&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.206039830709884,-11.32797316875542</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ýkwawi</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">112</SimpleData>
+		<SimpleData name="aldeia_etn">Ýkwawi/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeia antiga/abando</SimpleData>
+		<SimpleData name="NOME_OLD">Ýkwawi</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 17' 58,399&quot;</SimpleData>
+		<SimpleData name="Y">-11° 19' 1,378&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Aldeia Ekwawy</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.299555192258346,-11.317049443108766</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Antiga Faz. João</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">113</SimpleData>
+		<SimpleData name="aldeia_etn">Antiga Faz. João/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeia antiga/abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 27' 52,210&quot;</SimpleData>
+		<SimpleData name="Y">-11° 2' 57,957&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.464502879949535,-11.049432564260428</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Paranaíta</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">114</SimpleData>
+		<SimpleData name="aldeia_etn">Paranaíta/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 30' 53,215&quot;</SimpleData>
+		<SimpleData name="Y">-11° 5' 47,768&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Aldeia Paranaíta</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor verde, agardar Paulo</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.514781891916201,-11.096602153989641</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mupadá</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">115</SimpleData>
+		<SimpleData name="aldeia_etn">Mupadá/Yudja-Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Yudja-Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">Faz. Mutapá</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 31' 45,450&quot;</SimpleData>
+		<SimpleData name="Y">-11° 4' 41,735&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Aldeia Mupadá</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.529291742240076,-11.078259736561487</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nova Maraká</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">116</SimpleData>
+		<SimpleData name="aldeia_etn">Nova Maraká/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 46' 48,326&quot;</SimpleData>
+		<SimpleData name="Y">-11° 17' 43,137&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola da Aldeia Maraká</SimpleData>
+		<SimpleData name="TP_ESCOLA">municipal</SimpleData>
+		<SimpleData name="ASSE_PEDA">Feliz Natal</SimpleData>
+		<SimpleData name="CEFAPRON">Sinop</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor verde, agardar Paulo</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.780090538369826,-11.295315905339637</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Moitará</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">117</SimpleData>
+		<SimpleData name="aldeia_etn">Moitará/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 21' 1,974&quot;</SimpleData>
+		<SimpleData name="Y">-11° 22' 27,199&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Aldeia Moitará</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor verde, agardar Paulo</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.35054831365288,-11.374221828444842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Gaucha</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">118</SimpleData>
+		<SimpleData name="aldeia_etn">Gaucha/Kamaiurá</SimpleData>
+		<SimpleData name="ETNIA">Kamaiurá</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">local de roça</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 27' 4,406&quot;</SimpleData>
+		<SimpleData name="Y">-12° 5' 11,255&quot;</SimpleData>
+		<SimpleData name="ESCOLA">EEI Mavutsinin</SimpleData>
+		<SimpleData name="TP_ESCOLA">municipal</SimpleData>
+		<SimpleData name="ASSE_PEDA">Gaúcha do Norte</SimpleData>
+		<SimpleData name="CEFAPRON">Primavera do Leste</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.451223943676247,-12.08645960657514</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Buritizal</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">119</SimpleData>
+		<SimpleData name="aldeia_etn">Buritizal/Matipu</SimpleData>
+		<SimpleData name="ETNIA">Matipu</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 13' 49,826&quot;</SimpleData>
+		<SimpleData name="Y">-12° 32' 56,635&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.230507121020231,-12.549065157693487</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lago Azul</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">120</SimpleData>
+		<SimpleData name="aldeia_etn">Lago Azul/Kalapalo</SimpleData>
+		<SimpleData name="ETNIA">Kalapalo</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 49' 42,138&quot;</SimpleData>
+		<SimpleData name="Y">-12° 49' 47,170&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Aldeia Lago Azul</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.828371736745183,-12.829769524695955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Yaramy</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">121</SimpleData>
+		<SimpleData name="aldeia_etn">Yaramy/Nahukuá</SimpleData>
+		<SimpleData name="ETNIA">Nahukuá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 22' 57,677&quot;</SimpleData>
+		<SimpleData name="Y">-12° 51' 1,978&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola da Aldeia Yarami</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.382688061568622,-12.850549545491553</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Antigo PIV JARINÃ</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">122</SimpleData>
+		<SimpleData name="aldeia_etn">Antigo PIV JARINÃ</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 25' 36,643&quot;</SimpleData>
+		<SimpleData name="Y">-10° 35' 36,502&quot;</SimpleData>
+		<SimpleData name="ESCOLA_ANE">]</SimpleData>
+		<SimpleData name="TI">CAPOTO</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.426845168694847,-10.593472788900662</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ngosoko Nova</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">123</SimpleData>
+		<SimpleData name="aldeia_etn">Ngosoko Nova/Kisêdjê</SimpleData>
+		<SimpleData name="ETNIA">Kisêdjê</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 1' 9,510&quot;</SimpleData>
+		<SimpleData name="Y">-11° 31' 45,612&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Indígena Ngôsokô</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">WAWI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.019308333514118,-11.529336527849434</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Samaúma</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">124</SimpleData>
+		<SimpleData name="aldeia_etn">Samaúma/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 21' 30,281&quot;</SimpleData>
+		<SimpleData name="Y">-11° 22' 58,720&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.358411467023423,-11.382977707762684</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Itaí</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">125</SimpleData>
+		<SimpleData name="aldeia_etn">Itaí/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 16' 52,695&quot;</SimpleData>
+		<SimpleData name="Y">-11° 18' 22,713&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Aldeia Itaí</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor verde, agardar Paulo</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.281304117349585,-11.30630911980086</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Três Lagoas (Atixi tixikxu)</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">126</SimpleData>
+		<SimpleData name="aldeia_etn">Três Lagoas (Atixi tixikxu)/Trumai</SimpleData>
+		<SimpleData name="ETNIA">Trumai</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 26' 12,878&quot;</SimpleData>
+		<SimpleData name="Y">-11° 54' 33,208&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Língua não classificada em qualquer família</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="atualiza">alteração &quot;Oficina de Gestão&quot; - Alto, outubro de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.436910637973192,-11.909224383038273</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV NHAKIN</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">127</SimpleData>
+		<SimpleData name="aldeia_etn">PIV NHAKIN/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="NOME_OLD">PIV NHAKINH</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 27' 41,399&quot;</SimpleData>
+		<SimpleData name="Y">-8° 11' 17,368&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.461499796144167,-8.188157705623963</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV NGÂPRE</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">128</SimpleData>
+		<SimpleData name="aldeia_etn">PIV NGÂPRE/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 39' 33,129&quot;</SimpleData>
+		<SimpleData name="Y">-8° 28' 23,850&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.659202425740787,-8.473291681483564</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV RONKÔ</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">129</SimpleData>
+		<SimpleData name="aldeia_etn">PIV RONKÔ/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">PIV antiga ou abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 40' 1,750&quot;</SimpleData>
+		<SimpleData name="Y">-8° 11' 17,543&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.667152668689518,-8.188206463267116</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Krainampare</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">130</SimpleData>
+		<SimpleData name="aldeia_etn">Krainampare/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 50' 47,487&quot;</SimpleData>
+		<SimpleData name="Y">-8° 42' 27,197&quot;</SimpleData>
+		<SimpleData name="TI">BADJÔNKÔRE</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.846524228402579,-8.707554586744017</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kendjam</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">131</SimpleData>
+		<SimpleData name="aldeia_etn">Kendjam/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 15' 52,127&quot;</SimpleData>
+		<SimpleData name="Y">-7° 57' 32,713&quot;</SimpleData>
+		<SimpleData name="TI">MENKRAGNOTI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.264479609980775,-7.959086925483611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pukararãnkre</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">132</SimpleData>
+		<SimpleData name="aldeia_etn">Pukararãnkre/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 39' 39,488&quot;</SimpleData>
+		<SimpleData name="Y">-7° 27' 25,708&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.660968995105627,-7.457140999836853</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Krénhedjâ</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">133</SimpleData>
+		<SimpleData name="aldeia_etn">Krénhedjâ/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeia antiga/abando</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 37' 9,357&quot;</SimpleData>
+		<SimpleData name="Y">-7° 39' 34,273&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.619265767714538,-7.659520162948148</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kriny</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">134</SimpleData>
+		<SimpleData name="aldeia_etn">Kriny/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-50° 53' 19,315&quot;</SimpleData>
+		<SimpleData name="Y">-7° 20' 51,985&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-50.888698645532862,-7.347773535929605</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PIV IPIRANGA</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">135</SimpleData>
+		<SimpleData name="aldeia_etn">PIV IPIRANGA/Panará</SimpleData>
+		<SimpleData name="ETNIA">Panará</SimpleData>
+		<SimpleData name="TIPO">P</SimpleData>
+		<SimpleData name="TIPO2">PIV</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-54° 28' 3,251&quot;</SimpleData>
+		<SimpleData name="Y">-9° 15' 43,503&quot;</SimpleData>
+		<SimpleData name="TI">PANARÁ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.467569599483568,-9.262084298627464</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kauatire</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">136</SimpleData>
+		<SimpleData name="aldeia_etn">Kauatire/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 2' 23,889&quot;</SimpleData>
+		<SimpleData name="Y">-8° 36' 57,765&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.039969294493552,-8.616045848005314</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Parureda</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">137</SimpleData>
+		<SimpleData name="aldeia_etn">Parureda/Yudja</SimpleData>
+		<SimpleData name="ETNIA">Yudja</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 12' 10,175&quot;</SimpleData>
+		<SimpleData name="Y">-10° 51' 9,472&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Juruna (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.202826395405552,-10.852631205917465</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pakaia</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">138</SimpleData>
+		<SimpleData name="aldeia_etn">Pakaia/Yudja</SimpleData>
+		<SimpleData name="ETNIA">Yudja</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 4' 47,376&quot;</SimpleData>
+		<SimpleData name="Y">-10° 47' 0,233&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Juruna (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.079826581701198,-10.783398167528555</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Yaitata</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">139</SimpleData>
+		<SimpleData name="aldeia_etn">Yaitata/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 17' 24,011&quot;</SimpleData>
+		<SimpleData name="Y">-11° 15' 40,240&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.290003041534192,-11.261177739129911</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mainumy</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">140</SimpleData>
+		<SimpleData name="aldeia_etn">Mainumy/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 40' 22,870&quot;</SimpleData>
+		<SimpleData name="Y">-11° 10' 21,507&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="ESCOLA_EVA">preencher atributos da cor verde, agardar Paulo</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.673019535461137,-11.17264091525802</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Curumim</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">141</SimpleData>
+		<SimpleData name="aldeia_etn">Curumim/Kuikuro</SimpleData>
+		<SimpleData name="ETNIA">Kuikuro</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-52° 37' 34,364&quot;</SimpleData>
+		<SimpleData name="Y">-12° 40' 51,302&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.626212149433371,-12.680917233558644</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Agata(Barranco Queimado)</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">142</SimpleData>
+		<SimpleData name="aldeia_etn">Agata(Barranco Queimado)/Kalapalo</SimpleData>
+		<SimpleData name="ETNIA">Kalapalo</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">Agata(Barranco Alto)/Kukikuro</SimpleData>
+		<SimpleData name="X">-52° 53' 1,980&quot;</SimpleData>
+		<SimpleData name="Y">-12° 48' 22,379&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.883883277608412,-12.806216418342377</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Caramujo</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">143</SimpleData>
+		<SimpleData name="aldeia_etn">Caramujo/Kalapalo</SimpleData>
+		<SimpleData name="ETNIA">Kalapalo</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-52° 58' 50,364&quot;</SimpleData>
+		<SimpleData name="Y">-12° 46' 35,583&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.98065659865933,-12.776550942112284</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kaluane (Paraíso)</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">144</SimpleData>
+		<SimpleData name="aldeia_etn">Kaluane (Paraíso)/Kalapalo</SimpleData>
+		<SimpleData name="ETNIA">Kalapalo</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-52° 58' 3,276&quot;</SimpleData>
+		<SimpleData name="Y">-12° 43' 42,388&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola Aldeia Paraiso</SimpleData>
+		<SimpleData name="TP_ESCOLA">estadual</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="atualiza">atualização &quot;Oficina de Gestão&quot; - Alto, outubro de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.967576633227758,-12.728441007779308</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mirassol</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">145</SimpleData>
+		<SimpleData name="aldeia_etn">Mirassol/Aweti</SimpleData>
+		<SimpleData name="ETNIA">Aweti</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 13' 55,854&quot;</SimpleData>
+		<SimpleData name="Y">-12° 58' 58,636&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Aweti (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.232181671672727,-12.982954471480378</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Utawana</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">146</SimpleData>
+		<SimpleData name="aldeia_etn">Utawana/Mehinaku</SimpleData>
+		<SimpleData name="ETNIA">Mehinaku</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 26' 13,121&quot;</SimpleData>
+		<SimpleData name="Y">-12° 59' 29,368&quot;</SimpleData>
+		<SimpleData name="ESCOLA">Escola da Aldeia Utawana</SimpleData>
+		<SimpleData name="TP_ESCOLA">municipal</SimpleData>
+		<SimpleData name="ESCOLA_ANE">sim</SimpleData>
+		<SimpleData name="ASSE_PEDA">Gaúcha do Norte</SimpleData>
+		<SimpleData name="CEFAPRON">Primavera do Leste</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Aruak</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.436978179647546,-12.991491186918983</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ulupuene</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">147</SimpleData>
+		<SimpleData name="aldeia_etn">Ulupuene/Waurá</SimpleData>
+		<SimpleData name="ETNIA">Waurá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 54' 10,631&quot;</SimpleData>
+		<SimpleData name="Y">-12° 52' 59,022&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Aruak</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.902953177180336,-12.883061634949421</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kranhãnhã</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">148</SimpleData>
+		<SimpleData name="aldeia_etn">Kranhãnhã/Nahukuá</SimpleData>
+		<SimpleData name="ETNIA">Nahukuá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 19' 33,595&quot;</SimpleData>
+		<SimpleData name="Y">-12° 5' 8,667&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.325998702614321,-12.085740811751956</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sankue</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">149</SimpleData>
+		<SimpleData name="aldeia_etn">Sankue/Panará</SimpleData>
+		<SimpleData name="ETNIA">Panará</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-54° 3' 12,942&quot;</SimpleData>
+		<SimpleData name="Y">-9° 34' 4,957&quot;</SimpleData>
+		<SimpleData name="TI">PANARÁ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.053594870286666,-9.568043678669566</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CTL Wawi</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">150</SimpleData>
+		<SimpleData name="aldeia_etn">CTL Wawi/Kisêdjê</SimpleData>
+		<SimpleData name="ETNIA">Kisêdjê</SimpleData>
+		<SimpleData name="TIPO">P</SimpleData>
+		<SimpleData name="TIPO2">CTL</SimpleData>
+		<SimpleData name="X">-52° 54' 10,723&quot;</SimpleData>
+		<SimpleData name="Y">-11° 52' 7,872&quot;</SimpleData>
+		<SimpleData name="TI">WAWI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.902978618847314,-11.86885343132959</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kremoro</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">153</SimpleData>
+		<SimpleData name="aldeia_etn">Kremoro/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 14' 46,536&quot;</SimpleData>
+		<SimpleData name="Y">-9° 45' 44,643&quot;</SimpleData>
+		<SimpleData name="TI">CAPOTO</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.246260036208156,-9.762400943237973</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kenpó</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">154</SimpleData>
+		<SimpleData name="aldeia_etn">Kenpó/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 0' 5,597&quot;</SimpleData>
+		<SimpleData name="Y">-10° 16' 12,818&quot;</SimpleData>
+		<SimpleData name="TI">CAPOTO</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.001554681078325,-10.270227360267164</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Krumare</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">155</SimpleData>
+		<SimpleData name="aldeia_etn">Krumare/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 3' 58,747&quot;</SimpleData>
+		<SimpleData name="Y">-10° 25' 1,789&quot;</SimpleData>
+		<SimpleData name="TI">CAPOTO</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.06631861617862,-10.417163474050342</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pykatamkwyry</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">156</SimpleData>
+		<SimpleData name="aldeia_etn">Pykatamkwyry/Tapayuna</SimpleData>
+		<SimpleData name="ETNIA">Tapayuna</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 5' 16,552&quot;</SimpleData>
+		<SimpleData name="Y">-10° 30' 40,674&quot;</SimpleData>
+		<SimpleData name="TI">CAPOTO</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.087930997032593,-10.511298286174872</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bytire</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">157</SimpleData>
+		<SimpleData name="aldeia_etn">Bytire/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 5' 28,411&quot;</SimpleData>
+		<SimpleData name="Y">-10° 31' 41,108&quot;</SimpleData>
+		<SimpleData name="TI">CAPOTO</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.09122514744692,-10.528085648110473</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Krétire</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">158</SimpleData>
+		<SimpleData name="aldeia_etn">Krétire/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 4' 54,482&quot;</SimpleData>
+		<SimpleData name="Y">-10° 43' 25,679&quot;</SimpleData>
+		<SimpleData name="TI">CAPOTO</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.081800565558332,-10.723799843031763</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jatobá</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">159</SimpleData>
+		<SimpleData name="aldeia_etn">Jatobá/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 6' 58,793&quot;</SimpleData>
+		<SimpleData name="Y">-10° 45' 56,248&quot;</SimpleData>
+		<SimpleData name="TI">CAPOTO</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.116331276046786,-10.765624373433164</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Koróróti</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">160</SimpleData>
+		<SimpleData name="aldeia_etn">Koróróti/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 36' 40,379&quot;</SimpleData>
+		<SimpleData name="Y">-9° 37' 29,779&quot;</SimpleData>
+		<SimpleData name="TI">MENKRAGNOTI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.611216338329115,-9.624938533227359</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Omeikrankum</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">161</SimpleData>
+		<SimpleData name="aldeia_etn">Omeikrankum/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 28' 8,714&quot;</SimpleData>
+		<SimpleData name="Y">-9° 31' 29,439&quot;</SimpleData>
+		<SimpleData name="TI">MENKRAGNOTI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.469087215788221,-9.524844155032334</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kâkamkuben</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">162</SimpleData>
+		<SimpleData name="aldeia_etn">Kâkamkuben/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 56' 31,098&quot;</SimpleData>
+		<SimpleData name="Y">-9° 16' 46,707&quot;</SimpleData>
+		<SimpleData name="TI">MENKRAGNOTI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.941971721088407,-9.279640969405307</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Apeti</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">163</SimpleData>
+		<SimpleData name="aldeia_etn">Apeti/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-51° 42' 13,588&quot;</SimpleData>
+		<SimpleData name="Y">-7° 0' 3,110&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.703774489528762,-7.000863881611891</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Turedjam</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">164</SimpleData>
+		<SimpleData name="aldeia_etn">Turedjam/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-51° 4' 21,847&quot;</SimpleData>
+		<SimpleData name="Y">-6° 53' 32,797&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.072735363537703,-6.892443688886685</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Las Casas</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">166</SimpleData>
+		<SimpleData name="aldeia_etn">Las Casas/Kaiapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-49° 57' 2,610&quot;</SimpleData>
+		<SimpleData name="Y">-7° 52' 11,648&quot;</SimpleData>
+		<SimpleData name="TI">LAS CASAS</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-49.950724904670565,-7.869902348732259</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kawêretxikô</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">167</SimpleData>
+		<SimpleData name="aldeia_etn">Kawêretxikô/Tapayuna</SimpleData>
+		<SimpleData name="ETNIA">Tapayuna</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 4' 3,673&quot;</SimpleData>
+		<SimpleData name="Y">-10° 26' 2,197&quot;</SimpleData>
+		<SimpleData name="TI">CAPOTO</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.067686938995102,-10.433943482229704</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Metyktire Nova</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">168</SimpleData>
+		<SimpleData name="aldeia_etn">Metyktire Nova/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 2' 16,148&quot;</SimpleData>
+		<SimpleData name="Y">-10° 20' 14,434&quot;</SimpleData>
+		<SimpleData name="TI">CAPOTO</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.037818848968421,-10.337342722805303</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pungraiti</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">169</SimpleData>
+		<SimpleData name="aldeia_etn">Pungraiti/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-54° 31' 13,950&quot;</SimpleData>
+		<SimpleData name="Y">-8° 41' 42,976&quot;</SimpleData>
+		<SimpleData name="TI">MENKRAGNOTI</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.520541544132172,-8.695271042122137</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Arayo</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">171</SimpleData>
+		<SimpleData name="aldeia_etn">Arayo/Ikpeng</SimpleData>
+		<SimpleData name="ETNIA">Ikpeng</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 37' 4,395&quot;</SimpleData>
+		<SimpleData name="Y">-11° 43' 56,714&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.617887534922545,-11.732420550789071</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tupeku</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">190</SimpleData>
+		<SimpleData name="aldeia_etn">Tupeku/Kalapalo</SimpleData>
+		<SimpleData name="ETNIA">Kalapalo</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-52° 36' 3,170&quot;</SimpleData>
+		<SimpleData name="Y">-12° 33' 8,492&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.600880595496172,-12.552358940813948</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nascente do Tafununu</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">191</SimpleData>
+		<SimpleData name="aldeia_etn">Nascente do Tafununu/Kuikuro</SimpleData>
+		<SimpleData name="ETNIA">Kuikuro</SimpleData>
+		<SimpleData name="TIPO">P</SimpleData>
+		<SimpleData name="TIPO2">PIV</SimpleData>
+		<SimpleData name="X">-52° 44' 16,377&quot;</SimpleData>
+		<SimpleData name="Y">-12° 25' 35,364&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.737882503039621,-12.426490128154761</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rio dos Lagos</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">192</SimpleData>
+		<SimpleData name="aldeia_etn">Rio dos Lagos/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 6' 12,118&quot;</SimpleData>
+		<SimpleData name="Y">-11° 28' 10,773&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.103366156784034,-11.469659214100142</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lamakuka</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">193</SimpleData>
+		<SimpleData name="aldeia_etn">Lamakuka/Kuikuro</SimpleData>
+		<SimpleData name="ETNIA">Kuikuro</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 4' 3,770&quot;</SimpleData>
+		<SimpleData name="Y">-12° 34' 11,755&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.06771397390235,-12.569931809280853</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kawatire</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">194</SimpleData>
+		<SimpleData name="aldeia_etn">Kawatire/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-52° 44' 20,139&quot;</SimpleData>
+		<SimpleData name="Y">-7° 42' 9,225&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.73892744934551,-7.702562379873957</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kremáiti</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">200</SimpleData>
+		<SimpleData name="aldeia_etn">Kremáiti/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-52° 13' 59,214&quot;</SimpleData>
+		<SimpleData name="Y">-7° 6' 17,126&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.23311494552879,-7.104757310821812</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ngôméiti</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">201</SimpleData>
+		<SimpleData name="aldeia_etn">Ngôméiti/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-51° 44' 1,014&quot;</SimpleData>
+		<SimpleData name="Y">-7° 14' 32,155&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.733614997894009,-7.24226522382914</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Krãnhkrô</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">202</SimpleData>
+		<SimpleData name="aldeia_etn">Krãnhkrô/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-50° 56' 13,600&quot;</SimpleData>
+		<SimpleData name="Y">-6° 57' 54,626&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-50.937111064514369,-6.965173959522143</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Piôkrótikô</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">203</SimpleData>
+		<SimpleData name="aldeia_etn">Piôkrótikô/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-50° 50' 28,592&quot;</SimpleData>
+		<SimpleData name="Y">-7° 18' 53,596&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-50.841275659082619,-7.314887899577002</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pykatô</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">204</SimpleData>
+		<SimpleData name="aldeia_etn">Pykatô/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-51° 39' 38,990&quot;</SimpleData>
+		<SimpleData name="Y">-8° 28' 55,982&quot;</SimpleData>
+		<SimpleData name="TI">KAYAPÓ</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.660830420632614,-8.482217272760906</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rawo</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">205</SimpleData>
+		<SimpleData name="aldeia_etn">Rawo/Ikpeng</SimpleData>
+		<SimpleData name="ETNIA">Ikpeng</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 59' 59,520&quot;</SimpleData>
+		<SimpleData name="Y">-12° 15' 27,969&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="atualiza">2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.999866702423382,-12.257769120817963</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Arara</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">241</SimpleData>
+		<SimpleData name="aldeia_etn">Arara/Arara</SimpleData>
+		<SimpleData name="ETNIA">Arara</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-52° 51' 54,000&quot;</SimpleData>
+		<SimpleData name="Y">-3° 49' 12,108&quot;</SimpleData>
+		<SimpleData name="TI">Arara</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.86499999997227,-3.820029999876696</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ipixuna</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">242</SimpleData>
+		<SimpleData name="aldeia_etn">Ipixuna/Araweté</SimpleData>
+		<SimpleData name="ETNIA">Araweté</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-52° 38' 54,096&quot;</SimpleData>
+		<SimpleData name="Y">-4° 34' 44,508&quot;</SimpleData>
+		<SimpleData name="TI">Araweté Igarapé Ipixuna</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.64836000003725,-4.579030000037925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Djuruãti</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">243</SimpleData>
+		<SimpleData name="aldeia_etn">Djuruãti/Araweté</SimpleData>
+		<SimpleData name="ETNIA">Araweté</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-52° 40' 0,588&quot;</SimpleData>
+		<SimpleData name="Y">-4° 33' 12,096&quot;</SimpleData>
+		<SimpleData name="TI">Araweté Igarapé Ipixuna</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.666830000104895,-4.553360000243753</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pakanhã</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">244</SimpleData>
+		<SimpleData name="aldeia_etn">Pakanhã/Araweté</SimpleData>
+		<SimpleData name="ETNIA">Araweté</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-52° 34' 25,500&quot;</SimpleData>
+		<SimpleData name="Y">-4° 36' 27,216&quot;</SimpleData>
+		<SimpleData name="TI">Araweté Igarapé Ipixuna</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.573750000430842,-4.60756000036759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Paratatin</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">245</SimpleData>
+		<SimpleData name="aldeia_etn">Paratatin/Araweté</SimpleData>
+		<SimpleData name="ETNIA">Araweté</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-52° 43' 36,502&quot;</SimpleData>
+		<SimpleData name="Y">-4° 42' 2,300&quot;</SimpleData>
+		<SimpleData name="TI">Araweté Igarapé Ipixuna</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI, 2013</SimpleData>
+		<SimpleData name="atualiza">Atualizado pelo Juan,a partir de dados da FUNAI, maio de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.726806000355012,-4.700639000335722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Aradity</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">246</SimpleData>
+		<SimpleData name="aldeia_etn">Aradity/Araweté</SimpleData>
+		<SimpleData name="ETNIA">Araweté</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-52° 38' 30,502&quot;</SimpleData>
+		<SimpleData name="Y">-4° 14' 25,199&quot;</SimpleData>
+		<SimpleData name="TI">Araweté Igarapé Ipixuna</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI, 2013</SimpleData>
+		<SimpleData name="atualiza">Atualizado pelo Juan,a partir de dados da FUNAI, maio de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.641805999725761,-4.240332999458746</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ta-Akati</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">247</SimpleData>
+		<SimpleData name="aldeia_etn">Ta-Akati/Araweté</SimpleData>
+		<SimpleData name="ETNIA">Araweté</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-52° 50' 56,800&quot;</SimpleData>
+		<SimpleData name="Y">-4° 56' 1,298&quot;</SimpleData>
+		<SimpleData name="TI">Araweté Igarapé Ipixuna</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI, 2013</SimpleData>
+		<SimpleData name="atualiza">Atualizado pelo Juan,a partir de dados da FUNAI, maio de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.849111000251675,-4.933694000098146</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Araweté</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">248</SimpleData>
+		<SimpleData name="aldeia_etn">Araweté</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeia antiga</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-52° 31' 0,000&quot;</SimpleData>
+		<SimpleData name="Y">-4° 45' 29,993&quot;</SimpleData>
+		<SimpleData name="TI">Araweté Igarapé Ipixuna</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.516666377183192,-4.758331406044785</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cateté</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">249</SimpleData>
+		<SimpleData name="aldeia_etn">Cateté/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">CATETÉ</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-50° 48' 12,549&quot;</SimpleData>
+		<SimpleData name="Y">-6° 14' 55,510&quot;</SimpleData>
+		<SimpleData name="TI">Xikrin do Rio Catete</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-50.803485894630676,-6.248752720571431</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Djudje-ko</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">38</SimpleData>
+		<SimpleData name="aldeia_etn">Djudje-ko/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="NOME_OLD">DJUDJE-KO</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-50° 54' 54,919&quot;</SimpleData>
+		<SimpleData name="Y">-6° 18' 10,506&quot;</SimpleData>
+		<SimpleData name="TI">Xikrin do Rio Catete</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-50.915255197951367,-6.302918202017823</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Oodjã</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">152</SimpleData>
+		<SimpleData name="aldeia_etn">Oodjã/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-50° 33' 37,669&quot;</SimpleData>
+		<SimpleData name="Y">-6° 29' 40,151&quot;</SimpleData>
+		<SimpleData name="TI">Xikrin do Rio Catete</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">PINGO</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados do PINGO 2009</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-50.560463717740831,-6.494486272372068</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Apyterewa</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">252</SimpleData>
+		<SimpleData name="aldeia_etn">Apyterewa/Parakanã</SimpleData>
+		<SimpleData name="ETNIA">Parakanã</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-52° 40' 14,808&quot;</SimpleData>
+		<SimpleData name="Y">-5° 33' 12,816&quot;</SimpleData>
+		<SimpleData name="TI">Apyterewa</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.670779999803038,-5.55355999970831</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Xingu</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">253</SimpleData>
+		<SimpleData name="aldeia_etn">Xingu/Parakanã</SimpleData>
+		<SimpleData name="ETNIA">Parakanã</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-52° 41' 20,796&quot;</SimpleData>
+		<SimpleData name="Y">-5° 36' 21,816&quot;</SimpleData>
+		<SimpleData name="TI">Apyterewa</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.689110000397271,-5.606059999708805</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Raio De Sol</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">254</SimpleData>
+		<SimpleData name="aldeia_etn">Raio De Sol/Parakanã</SimpleData>
+		<SimpleData name="ETNIA">Parakanã</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-52° 32' 32,302&quot;</SimpleData>
+		<SimpleData name="Y">-5° 51' 8,701&quot;</SimpleData>
+		<SimpleData name="TI">Apyterewa</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI, 2013</SimpleData>
+		<SimpleData name="atualiza">Atualizado pelo Juan,a partir de dados da FUNAI, maio de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.54230600052874,-5.852417000211069</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Paranopiona</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">255</SimpleData>
+		<SimpleData name="aldeia_etn">Paranopiona/Parakanã</SimpleData>
+		<SimpleData name="ETNIA">Parakanã</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-52° 37' 54,610&quot;</SimpleData>
+		<SimpleData name="Y">-5° 29' 13,816&quot;</SimpleData>
+		<SimpleData name="TI">Apyterewa</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.631836000108095,-5.487170999788225</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">30</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeia antiga</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 51' 23,436&quot;</SimpleData>
+		<SimpleData name="Y">-5° 30' 48,325&quot;</SimpleData>
+		<SimpleData name="TI">Apyterewa</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.856510103107219,-5.513423540822863</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">31</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeia antiga</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 58' 49,660&quot;</SimpleData>
+		<SimpleData name="Y">-5° 23' 24,682&quot;</SimpleData>
+		<SimpleData name="TI">Apyterewa</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.980461228433946,-5.390189443134893</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Curuá</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">258</SimpleData>
+		<SimpleData name="aldeia_etn">Curuá/Kuruáya</SimpleData>
+		<SimpleData name="ETNIA">Kuruáya</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-54° 31' 14,916&quot;</SimpleData>
+		<SimpleData name="Y">-5° 39' 2,196&quot;</SimpleData>
+		<SimpleData name="TI">Kuruáya</SimpleData>
+		<SimpleData name="FAM_LINGUI">Munduruku</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.520810000027438,-5.650610000164013</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Irinapãn</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">259</SimpleData>
+		<SimpleData name="aldeia_etn">Irinapãn/Kuruáya</SimpleData>
+		<SimpleData name="ETNIA">Kuruáya</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-54° 31' 51,000&quot;</SimpleData>
+		<SimpleData name="Y">-5° 40' 3,000&quot;</SimpleData>
+		<SimpleData name="TI">Kuruáya</SimpleData>
+		<SimpleData name="FAM_LINGUI">Munduruku</SimpleData>
+		<SimpleData name="fonte">FUNAI, 2013</SimpleData>
+		<SimpleData name="atualiza">Atualizado pelo Juan,a partir de dados da FUNAI, maio de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.530833333129493,-5.667499999924175</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Curuatxe</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">260</SimpleData>
+		<SimpleData name="aldeia_etn">Curuatxe/Kuruáya</SimpleData>
+		<SimpleData name="ETNIA">Kuruáya</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-54° 31' 12,580&quot;</SimpleData>
+		<SimpleData name="Y">-5° 32' 50,160&quot;</SimpleData>
+		<SimpleData name="TI">Kuruáya</SimpleData>
+		<SimpleData name="FAM_LINGUI">Munduruku</SimpleData>
+		<SimpleData name="fonte">FUNAI, 2013</SimpleData>
+		<SimpleData name="atualiza">Atualizado pelo Juan,a partir de dados da FUNAI, maio de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.520161111507932,-5.547266666454404</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tukamã</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">261</SimpleData>
+		<SimpleData name="aldeia_etn">Tukamã/Xipaya</SimpleData>
+		<SimpleData name="ETNIA">Xipaya</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-54° 28' 3,000&quot;</SimpleData>
+		<SimpleData name="Y">-5° 21' 27,000&quot;</SimpleData>
+		<SimpleData name="TI">Xipaya</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Juruna (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.467500000027258,-5.357500000178258</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tukayá</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">262</SimpleData>
+		<SimpleData name="aldeia_etn">Tukayá/Xipaya</SimpleData>
+		<SimpleData name="ETNIA">Xipaya</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-54° 27' 17,388&quot;</SimpleData>
+		<SimpleData name="Y">-5° 23' 30,516&quot;</SimpleData>
+		<SimpleData name="TI">Xipaya</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Juruna (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.454830000034221,-5.39180999984813</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Remanso</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">263</SimpleData>
+		<SimpleData name="aldeia_etn">Remanso/Xipaya</SimpleData>
+		<SimpleData name="ETNIA">Xipaya</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-54° 29' 26,000&quot;</SimpleData>
+		<SimpleData name="Y">-5° 25' 40,000&quot;</SimpleData>
+		<SimpleData name="TI">Xipaya</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Juruna (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI, 2013</SimpleData>
+		<SimpleData name="atualiza">Atualizado pelo Juan,a partir de dados da FUNAI, maio de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.490555555162665,-5.427777777371414</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Paquiçamba</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">264</SimpleData>
+		<SimpleData name="aldeia_etn">Paquiçamba/Juruna</SimpleData>
+		<SimpleData name="ETNIA">Juruna</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-51° 48' 19,000&quot;</SimpleData>
+		<SimpleData name="Y">-3° 30' 4,090&quot;</SimpleData>
+		<SimpleData name="TI">Paquiçamba</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.805277686341498,-3.501136135135984</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Muratu</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">265</SimpleData>
+		<SimpleData name="aldeia_etn">Muratu/Juruna</SimpleData>
+		<SimpleData name="ETNIA">Juruna</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-51° 48' 33,350&quot;</SimpleData>
+		<SimpleData name="Y">-3° 30' 58,185&quot;</SimpleData>
+		<SimpleData name="TI">Paquiçamba</SimpleData>
+		<SimpleData name="fonte">FUNAI, 2013</SimpleData>
+		<SimpleData name="atualiza">Atualizado pelo Juan,a partir de dados da FUNAI, maio de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.809263891590746,-3.516162540001744</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Boa Vista</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">266</SimpleData>
+		<SimpleData name="aldeia_etn">Boa Vista/Juruna</SimpleData>
+		<SimpleData name="ETNIA">Juruna</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-52° 9' 7,402&quot;</SimpleData>
+		<SimpleData name="Y">-3° 4' 31,001&quot;</SimpleData>
+		<SimpleData name="fonte">FUNAI, 2013</SimpleData>
+		<SimpleData name="atualiza">Atualizado pelo Juan,a partir de dados da FUNAI, maio de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.15205600004645,-3.075277999995986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Furo Seco</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">267</SimpleData>
+		<SimpleData name="aldeia_etn">Furo Seco/Juruna</SimpleData>
+		<SimpleData name="ETNIA">Juruna</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-51° 46' 32,575&quot;</SimpleData>
+		<SimpleData name="Y">-3° 29' 14,050&quot;</SimpleData>
+		<SimpleData name="TI">Paquiçamba</SimpleData>
+		<SimpleData name="fonte">FUNAI, 2013</SimpleData>
+		<SimpleData name="atualiza">Atualizado pelo Juan,a partir de dados da FUNAI, maio de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.775715175050983,-3.487236239030668</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Terrawãngã</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">268</SimpleData>
+		<SimpleData name="aldeia_etn">Terrawãngã/Arara</SimpleData>
+		<SimpleData name="ETNIA">Arara</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-51° 43' 46,992&quot;</SimpleData>
+		<SimpleData name="Y">-3° 30' 51,984&quot;</SimpleData>
+		<SimpleData name="TI">Arara da Volta Grande do Xingu</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.729719999393332,-3.514440000170374</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kararaô</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">269</SimpleData>
+		<SimpleData name="aldeia_etn">Kararaô/Kayapó</SimpleData>
+		<SimpleData name="ETNIA">Kayapó</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-52° 48' 34,812&quot;</SimpleData>
+		<SimpleData name="Y">-3° 54' 2,304&quot;</SimpleData>
+		<SimpleData name="TI">Kararaô</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.809669999478714,-3.900639999732012</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Iriri</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">270</SimpleData>
+		<SimpleData name="aldeia_etn">Iriri/Arara</SimpleData>
+		<SimpleData name="ETNIA">Arara</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-54° 15' 42,012&quot;</SimpleData>
+		<SimpleData name="Y">-4° 32' 7,296&quot;</SimpleData>
+		<SimpleData name="TI">Cachoeira Seca</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.261670000162169,-4.535359999678299</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cujubim</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">271</SimpleData>
+		<SimpleData name="aldeia_etn">Cujubim/Kuruáya-Xipaya</SimpleData>
+		<SimpleData name="ETNIA">Arara</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-53° 22' 14,200&quot;</SimpleData>
+		<SimpleData name="Y">-4° 5' 31,600&quot;</SimpleData>
+		<SimpleData name="TI">Cachoeira Seca</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">FUNAI, 2013</SimpleData>
+		<SimpleData name="atualiza">Atualizado pelo Juan,a partir de dados da FUNAI, maio de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.370611111314489,-4.092111110580992</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bakajá</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">272</SimpleData>
+		<SimpleData name="aldeia_etn">Bakajá/Xikrin</SimpleData>
+		<SimpleData name="ETNIA">Xikrin do Bacajá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-51° 25' 25,896&quot;</SimpleData>
+		<SimpleData name="Y">-4° 54' 35,604&quot;</SimpleData>
+		<SimpleData name="TI">Trincheira Bacaja</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.423860000587887,-4.909889999985485</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mrôtidjãm</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">273</SimpleData>
+		<SimpleData name="aldeia_etn">Mrôtidjãm/Xikrin</SimpleData>
+		<SimpleData name="ETNIA">Xikrin do Bacajá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-51° 24' 10,188&quot;</SimpleData>
+		<SimpleData name="Y">-5° 5' 39,804&quot;</SimpleData>
+		<SimpleData name="TI">Trincheira Bacaja</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.402830000724954,-5.094389999935821</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pukayaká</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">274</SimpleData>
+		<SimpleData name="aldeia_etn">Pukayaká/Xikrin</SimpleData>
+		<SimpleData name="ETNIA">Xikrin do Bacajá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-51° 35' 37,488&quot;</SimpleData>
+		<SimpleData name="Y">-3° 47' 17,822&quot;</SimpleData>
+		<SimpleData name="TI">Trincheira Bacaja</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.593746699487276,-3.788283783850925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pàt-Krô</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">275</SimpleData>
+		<SimpleData name="aldeia_etn">Pàt-Krô/Xikrin</SimpleData>
+		<SimpleData name="ETNIA">Xikrin do Bacajá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-51° 23' 21,516&quot;</SimpleData>
+		<SimpleData name="Y">-3° 58' 36,588&quot;</SimpleData>
+		<SimpleData name="TI">Trincheira Bacaja</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.389310000357028,-3.976829999986072</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pytakô</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">276</SimpleData>
+		<SimpleData name="aldeia_etn">Pytakô/Xikrin</SimpleData>
+		<SimpleData name="ETNIA">Xikrin do Bacajá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-51° 19' 45,516&quot;</SimpleData>
+		<SimpleData name="Y">-4° 23' 59,316&quot;</SimpleData>
+		<SimpleData name="TI">Trincheira Bacaja</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.329310000084753,-4.399809999761838</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kamok-Tikô</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">277</SimpleData>
+		<SimpleData name="aldeia_etn">Kamok-Tikô/Xikrin</SimpleData>
+		<SimpleData name="ETNIA">Xikrin do Bacajá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-51° 31' 21,800&quot;</SimpleData>
+		<SimpleData name="Y">-3° 49' 14,100&quot;</SimpleData>
+		<SimpleData name="TI">Trincheira Bacaja</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">FUNAI, 2013</SimpleData>
+		<SimpleData name="atualiza">Atualizado pelo Juan,a partir de dados da FUNAI, maio de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.522722221601889,-3.820583332936291</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Krãen</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">278</SimpleData>
+		<SimpleData name="aldeia_etn">Krãen/Xikrin</SimpleData>
+		<SimpleData name="ETNIA">Xikrin do Bacajá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-51° 24' 44,100&quot;</SimpleData>
+		<SimpleData name="Y">-3° 54' 17,260&quot;</SimpleData>
+		<SimpleData name="TI">Trincheira Bacaja</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">FUNAI, 2013</SimpleData>
+		<SimpleData name="atualiza">Atualizado pelo Juan,a partir de dados da FUNAI, maio de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.412250000290392,-3.90479444482646</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kenkudjoy</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">279</SimpleData>
+		<SimpleData name="aldeia_etn">Kenkudjoy/Xikrin</SimpleData>
+		<SimpleData name="ETNIA">Xikrin do Bacajá</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-51° 24' 12,070&quot;</SimpleData>
+		<SimpleData name="Y">-4° 6' 10,600&quot;</SimpleData>
+		<SimpleData name="TI">Trincheira Bacaja</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Jê (do tronco Macro-Jê)</SimpleData>
+		<SimpleData name="fonte">FUNAI, 2013</SimpleData>
+		<SimpleData name="atualiza">Atualizado pelo Juan,a partir de dados da FUNAI, maio de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.403352778166841,-4.102944444471142</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">32</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeia antiga</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 53' 37,388&quot;</SimpleData>
+		<SimpleData name="Y">-5° 17' 3,846&quot;</SimpleData>
+		<SimpleData name="TI">Trincheira Bacaja</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.893718761933044,-5.284401630740913</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Trincheira</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">34</SimpleData>
+		<SimpleData name="aldeia_etn">Trincheira</SimpleData>
+		<SimpleData name="TIPO">X</SimpleData>
+		<SimpleData name="TIPO2">aldeia antiga</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-51° 20' 36,168&quot;</SimpleData>
+		<SimpleData name="Y">-4° 15' 32,431&quot;</SimpleData>
+		<SimpleData name="TI">Trincheira Bacaja</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-51.343379978565928,-4.259008704731663</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Koatinemo</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">282</SimpleData>
+		<SimpleData name="aldeia_etn">Koatinemo/Assurini</SimpleData>
+		<SimpleData name="ETNIA">Assurini</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-52° 34' 34,716&quot;</SimpleData>
+		<SimpleData name="Y">-4° 2' 34,296&quot;</SimpleData>
+		<SimpleData name="TI">Koatinemo</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI,Altamira 2011</SimpleData>
+		<SimpleData name="atualiza">Atualizado por Rose,a partir de dados da FUNAI  Altamira 2011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.576310000595747,-4.042859999545245</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ita-Aka</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">283</SimpleData>
+		<SimpleData name="aldeia_etn">Ita-Aka/Assurini</SimpleData>
+		<SimpleData name="ETNIA">Assurini</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">T</SimpleData>
+		<SimpleData name="X">-52° 33' 46,048&quot;</SimpleData>
+		<SimpleData name="Y">-3° 47' 10,486&quot;</SimpleData>
+		<SimpleData name="TI">Koatinemo</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI, 2013</SimpleData>
+		<SimpleData name="atualiza">Atualizado pelo Juan,a partir de dados da FUNAI, maio de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.562790999851323,-3.786246000171978</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kaniné</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="aldeia_etn">Kaniné/Kawaiwete</SimpleData>
+		<SimpleData name="ETNIA">Kawaiwete</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 33' 21,954&quot;</SimpleData>
+		<SimpleData name="Y">-11° 34' 26,501&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Tupi-Guarani (do tronco Tupi)</SimpleData>
+		<SimpleData name="fonte">FUNAI/Canarana</SimpleData>
+		<SimpleData name="atualiza">Aldeia incluida em 27/08/2013 por Rose (coordenada passada pelo Alupá)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.556098394629814,-11.574027980868008</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mayene</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">110</SimpleData>
+		<SimpleData name="aldeia_etn">Mayene/Kuikuro</SimpleData>
+		<SimpleData name="ETNIA">Kuikuro</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="SELECAO">N</SimpleData>
+		<SimpleData name="X">-53° 7' 1,075&quot;</SimpleData>
+		<SimpleData name="Y">-12° 30' 24,628&quot;</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Karib</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="atualiza">inclusão &quot;Oficina de Gestão&quot; - Alto, outubro de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.116965228229908,-12.506841174526956</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Aturua</name>
+	<ExtendedData><SchemaData schemaUrl="#aldeias">
+		<SimpleData name="OBJECTID">146</SimpleData>
+		<SimpleData name="aldeia_etn">Aturua/Mehinaku</SimpleData>
+		<SimpleData name="ETNIA">Mehinaku</SimpleData>
+		<SimpleData name="TIPO">A</SimpleData>
+		<SimpleData name="TIPO2">aldeias</SimpleData>
+		<SimpleData name="X">-53° 45' 25,081&quot;</SimpleData>
+		<SimpleData name="Y">-12° 57' 0,529&quot;</SimpleData>
+		<SimpleData name="ASSE_PEDA">Gaúcha do Norte</SimpleData>
+		<SimpleData name="TI">PIX</SimpleData>
+		<SimpleData name="FAM_LINGUI">Família Aruak</SimpleData>
+		<SimpleData name="fonte">ISA</SimpleData>
+		<SimpleData name="atualiza">inclusão &quot;Oficina de Gestão&quot; - Alto, outubro de 2013</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.756967082646625,-12.950146812642965</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

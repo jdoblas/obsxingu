@@ -1,0 +1,1734 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="localidades_ribeirinhas" id="localidades_ribeirinhas">
+	<SimpleField name="Name" type="string"></SimpleField>
+	<SimpleField name="Ponto_GPS" type="float"></SimpleField>
+	<SimpleField name="lado" type="string"></SimpleField>
+	<SimpleField name="Regiao" type="string"></SimpleField>
+	<SimpleField name="LAT" type="float"></SimpleField>
+	<SimpleField name="LONG" type="float"></SimpleField>
+	<SimpleField name="polo" type="int"></SimpleField>
+	<SimpleField name="Id" type="int"></SimpleField>
+	<SimpleField name="nome" type="string"></SimpleField>
+	<SimpleField name="INDICE" type="int"></SimpleField>
+	<SimpleField name="COMENTARIO" type="string"></SimpleField>
+	<SimpleField name="ICONE" type="int"></SimpleField>
+	<SimpleField name="ALTITUDE" type="float"></SimpleField>
+	<SimpleField name="DATA" type="string"></SimpleField>
+	<SimpleField name="ANGULO" type="float"></SimpleField>
+	<SimpleField name="DISPLAY" type="int"></SimpleField>
+	<SimpleField name="ZONA" type="string"></SimpleField>
+	<SimpleField name="LATITUDE" type="string"></SimpleField>
+	<SimpleField name="LONGITUDE" type="string"></SimpleField>
+	<SimpleField name="Propriet" type="string"></SimpleField>
+</Schema>
+<Folder><name>localidades_ribeirinhas</name>
+  <Placemark>
+	<name>Baliza</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-4.37547574155</SimpleData>
+		<SimpleData name="LONG">-52.72160000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.721636299656794,-4.375475741549567</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pedra Preta</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-4.49666662849</SimpleData>
+		<SimpleData name="LONG">-52.71380000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.713753723950838,-4.4966666284861</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Monte Alegre</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-4.66493688116</SimpleData>
+		<SimpleData name="LONG">-52.71970000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.71973313743743,-4.664936881159851</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Volta da Pedra</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-4.73781946063</SimpleData>
+		<SimpleData name="LONG">-52.79140000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="nome">Dico Preto</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.791422240157047,-4.73781946063382</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Morro Grande</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-4.90482149163</SimpleData>
+		<SimpleData name="LONG">-52.86080000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.860833777318653,-4.904821491630273</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Gabiroto</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-5.02413163930</SimpleData>
+		<SimpleData name="LONG">-52.93770000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.937680288279935,-5.02413163929883</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Morro do Costinha</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-5.13262013391</SimpleData>
+		<SimpleData name="LONG">-52.91070000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.910734970246921,-5.132620133905924</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Humaitá</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-5.22304978712</SimpleData>
+		<SimpleData name="LONG">-52.90870000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.908691719286267,-5.223049787121119</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cotijuba</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-5.28886408626</SimpleData>
+		<SimpleData name="LONG">-52.90900000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.908988323853436,-5.288864086259448</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Morro do Félix</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-5.37217939600</SimpleData>
+		<SimpleData name="LONG">-52.89530000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.895344038828419,-5.372179396001816</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bela Vista</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-5.38530204635</SimpleData>
+		<SimpleData name="LONG">-52.89140000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.891388152448449,-5.385302046353055</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ilha do Bom Jardim</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-5.58186590771</SimpleData>
+		<SimpleData name="LONG">-52.68350000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.683531347710257,-5.581865907707082</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Estragado</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-4.67194825841</SimpleData>
+		<SimpleData name="LONG">-52.77280000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.772841944900847,-4.67194825840726</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ilha do côco</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-4.88437339682</SimpleData>
+		<SimpleData name="LONG">-52.83290000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.832849927966777,-4.884373396821482</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vai quem quer</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-4.97775058503</SimpleData>
+		<SimpleData name="LONG">-52.89660000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.896623531265064,-4.977750585027325</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Forte Veneza</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRX</SimpleData>
+		<SimpleData name="LAT">-5.07230000000</SimpleData>
+		<SimpleData name="LONG">-52.93260000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.932566666667768,-5.0723</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rio Novo</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.47075000000</SimpleData>
+		<SimpleData name="LONG">-53.66790000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.667900000006206,-4.470749999999828</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Boa Esperança</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.46143333333</SimpleData>
+		<SimpleData name="LONG">-53.73530000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.735316666676553,-4.461433333329788</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Novo Paraíso</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.46851666667</SimpleData>
+		<SimpleData name="LONG">-53.84430000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.844350000006997,-4.468516666669718</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Săo Francisco</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.47558333333</SimpleData>
+		<SimpleData name="LONG">-53.83000000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.830033333336957,-4.475583333329721</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ilha das Cobras</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.46581666667</SimpleData>
+		<SimpleData name="LONG">-53.84000000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.839950000006986,-4.465816666669721</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ilha do Coco</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.60801666667</SimpleData>
+		<SimpleData name="LONG">-54.14690000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.146866666676871,-4.608016666669354</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ilha do Papagaio</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.60122222222</SimpleData>
+		<SimpleData name="LONG">-54.11460000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.114638888895925,-4.601222222221621</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Morro do Gabriel</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.70041666667</SimpleData>
+		<SimpleData name="LONG">-54.54170000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.541694444443934,-4.70041666666499</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Furo do Fava</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.70650000000</SimpleData>
+		<SimpleData name="LONG">-54.56620000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.566216666668574,-4.706499999998226</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sao Raimundo do Pati</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.73491666667</SimpleData>
+		<SimpleData name="LONG">-54.60810000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.608049999996908,-4.734916666668038</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Santa Luzia</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.74298333333</SimpleData>
+		<SimpleData name="LONG">-54.62010000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.620116666666384,-4.74298333332798</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pontao do Pati</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.74338333333</SimpleData>
+		<SimpleData name="LONG">-54.62050000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.620533333326371,-4.74338333332798</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Califórnia</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.74455000000</SimpleData>
+		<SimpleData name="LONG">-54.62680000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.626749999996079,-4.744549999997951</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jesus e Bem Vindo</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.74678333333</SimpleData>
+		<SimpleData name="LONG">-54.63540000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.635383333325677,-4.746783333327902</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Santa Paz</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.75866666667</SimpleData>
+		<SimpleData name="LONG">-54.63940000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.639399999995518,-4.75866666666789</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Săo Jorge</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.75866666667</SimpleData>
+		<SimpleData name="LONG">-54.63940000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.639399999995518,-4.75866666666789</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Roberto</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.78045000000</SimpleData>
+		<SimpleData name="LONG">-54.64420000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.644199999995351,-4.780449999997846</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lajeiro (Iriri)</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.84330000000</SimpleData>
+		<SimpleData name="LONG">-54.62140000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.621416666666626,-4.843299999997933</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Carajas</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.88661666667</SimpleData>
+		<SimpleData name="LONG">-54.58900000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.589016666668158,-4.88661666666806</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Săo Lucas</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.92800000000</SimpleData>
+		<SimpleData name="LONG">-54.58950000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.589449999998266,-4.927999999998043</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sao Raimundo</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.99338333333</SimpleData>
+		<SimpleData name="LONG">-54.54660000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.54655,-4.993383333328203</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Triunfo</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-5.47311666667</SimpleData>
+		<SimpleData name="LONG">-54.35550000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.355466666675895,-5.473116666668739</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cachoeirinha</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-5.42650000000</SimpleData>
+		<SimpleData name="LONG">-54.37670000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.37672222222767,-5.426499999998671</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ilha do Amor</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-5.30591666667</SimpleData>
+		<SimpleData name="LONG">-54.46610000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.466055555558853,-5.305916666665074</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Alto Zé Baixo</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.68800000000</SimpleData>
+		<SimpleData name="LONG">-54.48750000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.487500000001283,-4.687999999998516</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cachoeirinha (TI)</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.65394444444</SimpleData>
+		<SimpleData name="LONG">-54.46300000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.463000000001919,-4.653944444443042</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vai e Vem</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.49188888889</SimpleData>
+		<SimpleData name="LONG">-53.92450000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.924527777784981,-4.491888888888542</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Novo Sorriso - TI</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.52750000000</SimpleData>
+		<SimpleData name="LONG">-54.01210000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.012111111118365,-4.527499999999542</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Săo Francisco (TI)</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.69130555556</SimpleData>
+		<SimpleData name="LONG">-54.49110000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.491083333334508,-4.691305555554051</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Novo Sorriso</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.47611111111</SimpleData>
+		<SimpleData name="LONG">-53.82310000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.823083333340264,-4.476111111110843</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jesus é Bom Pai</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.46916666667</SimpleData>
+		<SimpleData name="LONG">-53.73140000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.731388888895431,-4.469166666666454</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Santa Clara</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.47505555556</SimpleData>
+		<SimpleData name="LONG">-53.69940000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.69936111111749,-4.475055555555371</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Buenos Aires</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">999.000000</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-5.15791588675</SimpleData>
+		<SimpleData name="LONG">-55.32720000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-55.327240642286398,-5.157915886743021</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Piranheira</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">102.000000</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-5.09379990404</SimpleData>
+		<SimpleData name="LONG">-55.30920000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-55.309223653917385,-5.093799904026655</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Postinho</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">105.000000</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-5.08059220396</SimpleData>
+		<SimpleData name="LONG">-55.30410000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-55.304096862919756,-5.080592203952613</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Paulo Afonso</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">114.000000</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-5.06358347797</SimpleData>
+		<SimpleData name="LONG">-55.24990000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-55.249947839928105,-5.063583477959592</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Boi Morreu</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">124.000000</SimpleData>
+		<SimpleData name="lado">LE</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-5.05248173104</SimpleData>
+		<SimpleData name="LONG">-55.21180000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-55.211758044941682,-5.052481731032724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tapiri de Baixo</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">127.000000</SimpleData>
+		<SimpleData name="lado">LD</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-5.03241143196</SimpleData>
+		<SimpleData name="LONG">-55.18370000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-55.183744048939168,-5.032411431957457</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lajeiro (Riozinho)</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">129.000000</SimpleData>
+		<SimpleData name="lado">LE</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-5.01889997203</SimpleData>
+		<SimpleData name="LONG">-55.16730000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-55.167317697942337,-5.018899972026162</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Largo Bonito</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">130.000000</SimpleData>
+		<SimpleData name="lado">LD</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-5.01936625697</SimpleData>
+		<SimpleData name="LONG">-55.15460000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-55.154645768946615,-5.019366256967342</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Boa Saúde I</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">132.000000</SimpleData>
+		<SimpleData name="lado">LD</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.96274374211</SimpleData>
+		<SimpleData name="LONG">-55.11460000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-55.114554697793544,-4.962743742104533</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Boa Saúde II</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">138.000000</SimpleData>
+		<SimpleData name="lado">LE</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.96090608600</SimpleData>
+		<SimpleData name="LONG">-55.12010000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-55.120121212955695,-4.96090608599382</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ascrôa</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">142.000000</SimpleData>
+		<SimpleData name="lado">LD</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.95424708402</SimpleData>
+		<SimpleData name="LONG">-55.08370000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-55.083741070953536,-4.954247084011291</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Volta da Escada</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">149.000000</SimpleData>
+		<SimpleData name="lado">LE</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.90033786701</SimpleData>
+		<SimpleData name="LONG">-54.99960000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.999552899969814,-4.90033786700116</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Novo Paraiso</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">152.000000</SimpleData>
+		<SimpleData name="lado">LD</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.90763540400</SimpleData>
+		<SimpleData name="LONG">-54.97620000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.976168060967296,-4.907635403992386</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Branca de Neve</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">153.000000</SimpleData>
+		<SimpleData name="lado">LD</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.90652178403</SimpleData>
+		<SimpleData name="LONG">-54.97330000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.97326264196645,-4.906521784022817</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Morro do Anfrísio</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">155.000000</SimpleData>
+		<SimpleData name="lado">LE</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.88987348001</SimpleData>
+		<SimpleData name="LONG">-54.93630000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.936277493970934,-4.88987348000282</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bom Jardim</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">160.000000</SimpleData>
+		<SimpleData name="lado">LE</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.87587201396</SimpleData>
+		<SimpleData name="LONG">-54.89880000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.898826227977089,-4.87587201395979</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Săo Joăo</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">163.000000</SimpleData>
+		<SimpleData name="lado">LE</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.85607714397</SimpleData>
+		<SimpleData name="LONG">-54.85500000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.855047547979083,-4.856077143965869</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ressaca</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">164.000000</SimpleData>
+		<SimpleData name="lado">LD</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.85532989701</SimpleData>
+		<SimpleData name="LONG">-54.84160000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.841564250978998,-4.855329897003198</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Praia Grande</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">165.000000</SimpleData>
+		<SimpleData name="lado">LD</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.85348974672</SimpleData>
+		<SimpleData name="LONG">-54.83620000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.83616011879613,-4.853489746720114</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Conceiçăo</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">165.000000</SimpleData>
+		<SimpleData name="lado">LD</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.96271222708</SimpleData>
+		<SimpleData name="LONG">-55.14360000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-55.14356835359601,-4.962712227076271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Riso da Noite</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">168.000000</SimpleData>
+		<SimpleData name="lado">LD</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.85556668601</SimpleData>
+		<SimpleData name="LONG">-54.81720000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.817215324986314,-4.855566686011189</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Morro verde</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">175.000000</SimpleData>
+		<SimpleData name="lado">LD</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.81738594396</SimpleData>
+		<SimpleData name="LONG">-54.72300000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.722992842993577,-4.817385943958944</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Praia do Frizan</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">176.000000</SimpleData>
+		<SimpleData name="lado">LE</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.81319624901</SimpleData>
+		<SimpleData name="LONG">-54.66710000000</SimpleData>
+		<SimpleData name="polo">1</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.667077501990846,-4.813196249011373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Morada Nova</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">177.000000</SimpleData>
+		<SimpleData name="lado">LE</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.87647710398</SimpleData>
+		<SimpleData name="LONG">-54.62110000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.621076527993438,-4.876477103978081</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Boa Vista</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">178.000000</SimpleData>
+		<SimpleData name="lado">LE</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.92892820397</SimpleData>
+		<SimpleData name="LONG">-54.61450000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.614484412993185,-4.928928203964698</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Săo Pedro</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.86709362873</SimpleData>
+		<SimpleData name="LONG">-54.88100000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.880955902803152,-4.867093628727001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Alto Alegre</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">99.000000</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-5.13117539701</SimpleData>
+		<SimpleData name="LONG">-55.32470000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-55.324738807917029,-5.131175396997837</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bem bom</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">TICS</SimpleData>
+		<SimpleData name="LAT">-4.27616522254</SimpleData>
+		<SimpleData name="LONG">-53.49700000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.497020560395484,-4.276165222536166</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Pimental</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">TICS</SimpleData>
+		<SimpleData name="LAT">-4.23768322880</SimpleData>
+		<SimpleData name="LONG">-53.45600000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.45600933506983,-4.237683228795592</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Solidade</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">TICS</SimpleData>
+		<SimpleData name="LAT">-4.22337583114</SimpleData>
+		<SimpleData name="LONG">-53.41810000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.418092263538526,-4.223375831139412</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Săo Sebastiăo</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">PNSP</SimpleData>
+		<SimpleData name="LAT">-5.78085397893</SimpleData>
+		<SimpleData name="LONG">-52.61590000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-52.57559618867613,-5.799469649255455</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Maribel</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="LAT">-4.37829581639</SimpleData>
+		<SimpleData name="LONG">-53.65100000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.651018777657342,-4.378295816385028</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Săo Sebastiăo (TI)</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRI</SimpleData>
+		<SimpleData name="LAT">-4.68037240869</SimpleData>
+		<SimpleData name="LONG">-54.55390000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.553918717936838,-4.680372408683747</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bom Lugar</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-4.84261600000</SimpleData>
+		<SimpleData name="LONG">-54.82030000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.820260999984576,-4.84261599999684</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cara Velho</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-5.03013300000</SimpleData>
+		<SimpleData name="LONG">-55.24790000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-55.247926999930549,-5.030132999992417</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Goela</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">TICS</SimpleData>
+		<SimpleData name="LAT">-4.35796482618</SimpleData>
+		<SimpleData name="LONG">-53.51160000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.511567741306727,-4.357964826183407</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Lajeado</name>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="Regiao">RRA</SimpleData>
+		<SimpleData name="LAT">-5.05939942299</SimpleData>
+		<SimpleData name="LONG">-55.25700000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-55.256979314640979,-5.059399422982557</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="LAT">0.00000000000</SimpleData>
+		<SimpleData name="LONG">0.00000000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="nome">Seu Bebę</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.479967656282511,-5.907294263565638</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="LAT">0.00000000000</SimpleData>
+		<SimpleData name="LONG">0.00000000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="nome">Loc Lubizú, prepost (raimundo), dono Anselmo</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.502370806274385,-5.982995072792905</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="LAT">0.00000000000</SimpleData>
+		<SimpleData name="LONG">0.00000000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="nome">Seu Pacú, vendeu, toma conta</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.640571128097044,-6.325452798304311</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="LAT">0.00000000000</SimpleData>
+		<SimpleData name="LONG">0.00000000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="nome">Dona Neves</SimpleData>
+		<SimpleData name="INDICE">5</SimpleData>
+		<SimpleData name="COMENTARIO">31-mar-11 9:45:42</SimpleData>
+		<SimpleData name="ICONE">221</SimpleData>
+		<SimpleData name="ALTITUDE">185.42</SimpleData>
+		<SimpleData name="DATA">30/12/1989 21:00:00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+		<SimpleData name="LATITUDE">-6,45931268110872</SimpleData>
+		<SimpleData name="LONGITUDE">-54,0276400465519</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.027640046560734,-6.459312681108059</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="LAT">0.00000000000</SimpleData>
+		<SimpleData name="LONG">0.00000000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="nome">Erotides</SimpleData>
+		<SimpleData name="INDICE">7</SimpleData>
+		<SimpleData name="COMENTARIO">29-mar-11 18:59:48</SimpleData>
+		<SimpleData name="ICONE">221</SimpleData>
+		<SimpleData name="ALTITUDE">187.10</SimpleData>
+		<SimpleData name="DATA">30/12/1989 21:00:00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+		<SimpleData name="LATITUDE">-6,06058202683926</SimpleData>
+		<SimpleData name="LONGITUDE">-54,1200998984278</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.120099898436315,-6.060582026838469</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="LAT">0.00000000000</SimpleData>
+		<SimpleData name="LONG">0.00000000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="nome">Irineu</SimpleData>
+		<SimpleData name="INDICE">15</SimpleData>
+		<SimpleData name="COMENTARIO">31-mar-11 13:40:27</SimpleData>
+		<SimpleData name="ICONE">221</SimpleData>
+		<SimpleData name="ALTITUDE">202.00</SimpleData>
+		<SimpleData name="DATA">30/12/1989 21:00:00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+		<SimpleData name="LATITUDE">-6,75424695946277</SimpleData>
+		<SimpleData name="LONGITUDE">-53,8866603747011</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.886660374709521,-6.754246959462293</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="LAT">0.00000000000</SimpleData>
+		<SimpleData name="LONG">0.00000000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="nome">Josefa</SimpleData>
+		<SimpleData name="INDICE">16</SimpleData>
+		<SimpleData name="COMENTARIO">30-mar-11 14:27:57</SimpleData>
+		<SimpleData name="ICONE">221</SimpleData>
+		<SimpleData name="ALTITUDE">192.15</SimpleData>
+		<SimpleData name="DATA">30/12/1989 21:00:00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+		<SimpleData name="LATITUDE">-6,1873754952103</SimpleData>
+		<SimpleData name="LONGITUDE">-54,0838802699</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.083880269908697,-6.18737549520957</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="LAT">0.00000000000</SimpleData>
+		<SimpleData name="LONG">0.00000000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="nome">Pedro Brej</SimpleData>
+		<SimpleData name="INDICE">21</SimpleData>
+		<SimpleData name="COMENTARIO">02-abr-11 7:36:49</SimpleData>
+		<SimpleData name="ICONE">221</SimpleData>
+		<SimpleData name="ALTITUDE">175.57</SimpleData>
+		<SimpleData name="DATA">30/12/1989 21:00:00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+		<SimpleData name="LATITUDE">-5,57969430461526</SimpleData>
+		<SimpleData name="LONGITUDE">-54,3137326743454</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.313732674352089,-5.579694304614089</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="LAT">0.00000000000</SimpleData>
+		<SimpleData name="LONG">0.00000000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="nome">Pousada Ir</SimpleData>
+		<SimpleData name="INDICE">23</SimpleData>
+		<SimpleData name="COMENTARIO">29-mar-11 14:56:11</SimpleData>
+		<SimpleData name="ICONE">221</SimpleData>
+		<SimpleData name="ALTITUDE">182.29</SimpleData>
+		<SimpleData name="DATA">30/12/1989 21:00:00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+		<SimpleData name="LATITUDE">-5,67976710386575</SimpleData>
+		<SimpleData name="LONGITUDE">-54,2464695777745</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.246469577781944,-5.679767103864732</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="LAT">0.00000000000</SimpleData>
+		<SimpleData name="LONG">0.00000000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="nome">Raimundo G</SimpleData>
+		<SimpleData name="INDICE">25</SimpleData>
+		<SimpleData name="COMENTARIO">30-mar-11 14:05:04</SimpleData>
+		<SimpleData name="ICONE">221</SimpleData>
+		<SimpleData name="ALTITUDE">190.95</SimpleData>
+		<SimpleData name="DATA">30/12/1989 21:00:00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+		<SimpleData name="LATITUDE">-6,119619961828</SimpleData>
+		<SimpleData name="LONGITUDE">-54,0898206923157</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.089820692324359,-6.119619961827265</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="LAT">0.00000000000</SimpleData>
+		<SimpleData name="LONG">0.00000000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="nome">Ze Mineiro</SimpleData>
+		<SimpleData name="INDICE">43</SimpleData>
+		<SimpleData name="COMENTARIO">30-mar-11 9:29:10</SimpleData>
+		<SimpleData name="ICONE">221</SimpleData>
+		<SimpleData name="ALTITUDE">170.28</SimpleData>
+		<SimpleData name="DATA">30/12/1989 21:00:00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+		<SimpleData name="LATITUDE">-6,06931957416237</SimpleData>
+		<SimpleData name="LONGITUDE">-54,1226925887168</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.122692588725343,-6.069319574161569</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="LAT">0.00000000000</SimpleData>
+		<SimpleData name="LONG">0.00000000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="nome">Benedito N</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-53.833972182190635,-7.006540248030655</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#localidades_ribeirinhas">
+		<SimpleData name="Ponto_GPS">0.000000</SimpleData>
+		<SimpleData name="LAT">0.00000000000</SimpleData>
+		<SimpleData name="LONG">0.00000000000</SimpleData>
+		<SimpleData name="polo">0</SimpleData>
+		<SimpleData name="Id">0</SimpleData>
+		<SimpleData name="nome">Ze boi</SimpleData>
+		<SimpleData name="INDICE">0</SimpleData>
+		<SimpleData name="ICONE">0</SimpleData>
+		<SimpleData name="ALTITUDE">0.00</SimpleData>
+		<SimpleData name="ANGULO">0.00</SimpleData>
+		<SimpleData name="DISPLAY">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-54.21786532660267,-5.775305760569661</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
